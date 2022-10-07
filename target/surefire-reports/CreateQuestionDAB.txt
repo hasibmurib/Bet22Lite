@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: CreateQuestionDAB
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.05 sec <<< FAILURE! - in CreateQuestionDAB
+test3(CreateQuestionDAB)  Time elapsed: 0.966 sec  <<< ERROR!
+java.lang.NullPointerException
+	at CreateQuestionDAB.test3(CreateQuestionDAB.java:138)
+
+test2(CreateQuestionDAB)  Time elapsed: 0.007 sec  <<< ERROR!
+java.lang.NullPointerException
+	at CreateQuestionDAB.test2(CreateQuestionDAB.java:100)
+

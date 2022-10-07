@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="createQuestionTest.CreateQuestionInt" time="0.33" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.4.1+1"/>
+    <property name="sun.boot.library.path" value="/home/hasib/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.4.v20220903-1038/jre/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/hasib/git/Bet22Lite"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/hasib/git/Bet22Lite"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.4.1+1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/home/hasib/Desktop/IS2 /.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf2333657632791823533.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.15.0-48-generic"/>
+    <property name="user.home" value="/home/hasib"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="hasib"/>
+    <property name="java.class.path" value="/home/hasib/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.8.601.20220820-1147/jars/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always install"/>
+    <property name="java.home" value="/home/hasib/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.4.v20220903-1038/jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="/home/hasib/git/Bet22Lite/EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2022-08-12"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17.0.4.1+1"/>
+  </properties>
+  <testcase name="test2" classname="createQuestionTest.CreateQuestionInt" time="0.109">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: 
+	at createQuestionTest.CreateQuestionInt.test2(CreateQuestionInt.java:123)
+</failure>
+    <system-out><![CDATA[Creating DataAccess instance => isDatabaseLocal: true getDatabBaseOpenMode: initialize
+Opening DataAccess instance => isDatabaseLocal: true getDatabBaseOpenMode: initialize
+Creating BLFacadeImplementation instance with DataAccess parameter
+Opening DataAccess instance => isDatabaseLocal: true getDatabBaseOpenMode: initialize
+Deleting the DataBase
+newDate: Thu Nov 17 00:00:00 CET 2022
+newDate: Thu Nov 17 00:00:00 CET 2022
+newDate: Thu Nov 17 00:00:00 CET 2022
+newDate: Thu Nov 17 00:00:00 CET 2022
+newDate: Thu Nov 17 00:00:00 CET 2022
+newDate: Thu Nov 17 00:00:00 CET 2022
+newDate: Thu Nov 17 00:00:00 CET 2022
+newDate: Thu Nov 17 00:00:00 CET 2022
+newDate: Thu Nov 17 00:00:00 CET 2022
+newDate: Thu Nov 17 00:00:00 CET 2022
+newDate: Tue Nov 01 00:00:00 CET 2022
+newDate: Tue Nov 01 00:00:00 CET 2022
+newDate: Tue Nov 01 00:00:00 CET 2022
+newDate: Tue Nov 01 00:00:00 CET 2022
+newDate: Tue Nov 01 00:00:00 CET 2022
+newDate: Tue Nov 01 00:00:00 CET 2022
+newDate: Wed Dec 28 00:00:00 CET 2022
+newDate: Wed Dec 28 00:00:00 CET 2022
+newDate: Wed Dec 28 00:00:00 CET 2022
+newDate: Wed Dec 28 00:00:00 CET 2022
+newDate: Wed Sep 21 00:00:00 CEST 2022
+newDate: Thu Nov 17 00:00:00 CET 2022
+newDate: Thu Nov 17 00:00:00 CET 2022
+newDate: Thu Nov 17 00:00:00 CET 2022
+newDate: Tue Nov 01 00:00:00 CET 2022
+newDate: Tue Nov 01 00:00:00 CET 2022
+newDate: Thu Nov 17 00:00:00 CET 2022
+DataBase closed
+Creating TestFacadeImplementation instance
+Creating TestDataAccess instance
+Opening TestDataAccess instance 
+DataBase closed
+Opening TestDataAccess instance 
+>> DataAccessTest: addEvent
+DataBase closed
+Opening DataAccess instance => isDatabaseLocal: true getDatabBaseOpenMode: initialize
+Opening TestDataAccess instance 
+>> DataAccessTest: removeEvent
+DataBase closed
+Finally true
+]]></system-out>
+    <system-err><![CDATA[java.lang.instrument.IllegalClassFormatException: Error while instrumenting sun/util/resources/provider/NonBaseLocaleDataMetaInfo.
+	at org.jacoco.agent.rt.internal_43f5073.CoverageTransformer.transform(CoverageTransformer.java:94)
+	at java.instrument/java.lang.instrument.ClassFileTransformer.transform(ClassFileTransformer.java:244)
+	at java.instrument/sun.instrument.TransformerManager.transform(TransformerManager.java:188)
+	at java.instrument/sun.instrument.InstrumentationImpl.transform(InstrumentationImpl.java:541)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:182)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:821)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassInModuleOrNull(BuiltinClassLoader.java:741)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClass(BuiltinClassLoader.java:621)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:632)
+	at java.base/java.lang.Class.forName(Class.java:545)
+	at java.base/java.util.ServiceLoader.loadProvider(ServiceLoader.java:859)
+	at java.base/java.util.ServiceLoader$ModuleServicesLookupIterator.hasNext(ServiceLoader.java:1084)
+	at java.base/java.util.ServiceLoader$2.hasNext(ServiceLoader.java:1309)
+	at java.base/java.util.ServiceLoader$3.hasNext(ServiceLoader.java:1393)
+	at java.base/sun.util.locale.provider.JRELocaleProviderAdapter.lambda$createSupportedLocaleString$13(JRELocaleProviderAdapter.java:479)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.base/sun.util.locale.provider.JRELocaleProviderAdapter.createSupportedLocaleString(JRELocaleProviderAdapter.java:476)
+	at java.base/sun.util.locale.provider.JRELocaleProviderAdapter.createLanguageTagSet(JRELocaleProviderAdapter.java:456)
+	at java.base/sun.util.locale.provider.JRELocaleProviderAdapter.getLanguageTagSet(JRELocaleProviderAdapter.java:446)
+	at java.base/sun.util.locale.provider.JRELocaleProviderAdapter.lambda$getTimeZoneNameProvider$8(JRELocaleProviderAdapter.java:305)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at java.base/sun.util.locale.provider.JRELocaleProviderAdapter.getTimeZoneNameProvider(JRELocaleProviderAdapter.java:301)
+	at java.base/sun.util.locale.provider.JRELocaleProviderAdapter.getLocaleServiceProvider(JRELocaleProviderAdapter.java:109)
+	at java.base/sun.util.locale.provider.LocaleServiceProviderPool.findProviders(LocaleServiceProviderPool.java:304)
+	at java.base/sun.util.locale.provider.LocaleServiceProviderPool.getLocalizedObjectImpl(LocaleServiceProviderPool.java:274)
+	at java.base/sun.util.locale.provider.LocaleServiceProviderPool.getLocalizedObject(LocaleServiceProviderPool.java:236)
+	at java.base/sun.util.locale.provider.TimeZoneNameUtility.retrieveDisplayNamesImpl(TimeZoneNameUtility.java:197)
+	at java.base/sun.util.locale.provider.TimeZoneNameUtility.retrieveDisplayName(TimeZoneNameUtility.java:150)
+	at java.base/java.util.TimeZone.getDisplayName(TimeZone.java:402)
+	at java.base/java.util.Date.toString(Date.java:1047)
+	at java.base/java.lang.String.valueOf(String.java:4218)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:173)
+	at configuration.UtilDate.newDate(UtilDate.java:28)
+	at dataAccess.DataAccess.initializeDB(DataAccess.java:110)
+	at businessLogic.BLFacadeImplementation.<init>(BLFacadeImplementation.java:56)
+	at createQuestionTest.CreateQuestionInt.setUpClass(CreateQuestionInt.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:27)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.io.IOException: Error while instrumenting sun/util/resources/provider/NonBaseLocaleDataMetaInfo.
+	at org.jacoco.agent.rt.internal_43f5073.core.instr.Instrumenter.instrumentError(Instrumenter.java:159)
+	at org.jacoco.agent.rt.internal_43f5073.core.instr.Instrumenter.instrument(Instrumenter.java:109)
+	at org.jacoco.agent.rt.internal_43f5073.CoverageTransformer.transform(CoverageTransformer.java:92)
+	... 55 more
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+	at org.jacoco.agent.rt.internal_43f5073.asm.ClassReader.<init>(ClassReader.java:195)
+	at org.jacoco.agent.rt.internal_43f5073.asm.ClassReader.<init>(ClassReader.java:176)
+	at org.jacoco.agent.rt.internal_43f5073.asm.ClassReader.<init>(ClassReader.java:162)
+	at org.jacoco.agent.rt.internal_43f5073.core.internal.instr.InstrSupport.classReaderFor(InstrSupport.java:280)
+	at org.jacoco.agent.rt.internal_43f5073.core.instr.Instrumenter.instrument(Instrumenter.java:75)
+	at org.jacoco.agent.rt.internal_43f5073.core.instr.Instrumenter.instrument(Instrumenter.java:107)
+	... 56 more
+[ObjectDB 2.8.1] javax.persistence.RollbackException
+Failed to commit transaction: Attempt to reuse an existing primary key value (domain.Team:'Alaves') (error 613)
+	at com.objectdb.jpa.EMImpl.commit(EMImpl.java:289)
+	at dataAccess.DataAccess.initializeDB(DataAccess.java:592)
+	at businessLogic.BLFacadeImplementation.<init>(BLFacadeImplementation.java:56)
+	at createQuestionTest.CreateQuestionInt.setUpClass(CreateQuestionInt.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:27)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: javax.persistence.EntityExistsException: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Team:'Alaves')
+	at com.objectdb.o._EntityExistsException.a(_EntityExistsException.java:46)
+	at com.objectdb.o.JPE.d(JPE.java:100)
+	at com.objectdb.o.JPE.d(JPE.java:80)
+	... 23 more
+Caused by: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Team:'Alaves')
+	at com.objectdb.o.MSG.a(MSG.java:64)
+	at com.objectdb.o.PPW.ad(PPW.java:209)
+	at com.objectdb.o.PGW.ak(PGW.java:212)
+	at com.objectdb.o.UPT.u(UPT.java:135)
+	at com.objectdb.o.URT.g(URT.java:173)
+	at com.objectdb.o.TSK.b(TSK.java:146)
+	at com.objectdb.o.TSK.c(TSK.java:96)
+	at com.objectdb.o.TSM.a(TSM.java:88)
+	at com.objectdb.o.UTT.r(UTT.java:377)
+	at com.objectdb.o.UTT.g(UTT.java:210)
+	at com.objectdb.o.TSK.b(TSK.java:146)
+	at com.objectdb.o.TSK.c(TSK.java:96)
+	at com.objectdb.o.TSM.a(TSM.java:88)
+	at com.objectdb.o.MST.ZR(MST.java:1437)
+	at com.objectdb.o.WRA.ZR(WRA.java:398)
+	at com.objectdb.o.WSM.ZR(WSM.java:186)
+	at com.objectdb.o.OBM.aP(OBM.java:959)
+	at com.objectdb.o.OBM.aS(OBM.java:859)
+	at com.objectdb.o.OBM.aG(OBM.java:759)
+	at com.objectdb.jpa.EMImpl.commit(EMImpl.java:286)
+	... 20 more
+]]></system-err>
+  </testcase>
+  <testcase name="test1" classname="createQuestionTest.CreateQuestionInt" time="0.094">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: 
+	at createQuestionTest.CreateQuestionInt.test1(CreateQuestionInt.java:75)
+</failure>
+    <system-out><![CDATA[Opening TestDataAccess instance 
+>> DataAccessTest: addEvent
+DataBase closed
+Opening DataAccess instance => isDatabaseLocal: true getDatabBaseOpenMode: initialize
+Opening TestDataAccess instance 
+>> DataAccessTest: removeEvent
+DataBase closed
+Finally true
+]]></system-out>
+  </testcase>
+</testsuite>

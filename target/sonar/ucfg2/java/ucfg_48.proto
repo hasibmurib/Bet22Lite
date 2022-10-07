@@ -1,0 +1,40 @@
+
+4dataAccess.DataAccess#getEventsAll()Ljava/util/List;N
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java– –( "1*í	
+1N
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java— —(£
+ 
+N
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java— —(%
+%0javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbèå
+N
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java— —(R"
+%1javax.persistence.TypedQuery"njavax.persistence.EntityManager#createQuery(Ljava/lang/String;Ljava/lang/Class;)Ljavax/persistence/TypedQuery;*'
+%
+%0javax.persistence.EntityManager*
+SELECT ev FROM Event ev *
+""20createQuery(Ljava/lang/String;Ljava/lang/Class;)¦
+£
+N
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java— —(S%
+queryjavax.persistence.TypedQuery"__id*$
+"
+%1javax.persistence.TypedQueryáÞ
+N
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java˜ ˜(,
+%2java.util.List"<javax.persistence.TypedQuery#getResultList()Ljava/util/List;*'
+%
+queryjavax.persistence.TypedQuery2getResultList()‹
+ˆ
+N
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java˜ ˜(-
+eventsjava.util.List"__id*
+
+%2java.util.List"l
+N
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java™ ™(
+
+eventsjava.util.ListB
+dataAccess.DataAccess

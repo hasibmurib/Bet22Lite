@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>MugimenduakBistaratuGUI.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Bets2222</a> &gt; <a href="index.source.html" class="el_package">gui</a> &gt; <span class="el_source">MugimenduakBistaratuGUI.java</span></div><h1>MugimenduakBistaratuGUI.java</h1><pre class="source lang-java linenums">package gui;
+
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.ResourceBundle;
+
+import javax.swing.DefaultListModel;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JList;
+import javax.swing.JScrollPane;
+import javax.swing.SwingConstants;
+
+import businessLogic.BLFacade;
+import domain.Registered;
+import domain.Transaction;
+
+public class MugimenduakBistaratuGUI extends JFrame{
+
+	private static final long serialVersionUID = 1L;
+	
+	private Registered user;
+	private JLabel lblMugimenduakBistaratu;
+<span class="nc" id="L28">	private DefaultListModel&lt;Transaction&gt; apustuaEgin = new DefaultListModel&lt;Transaction&gt;();</span>
+<span class="nc" id="L29">	private BLFacade businessLogic = MainGUI.getBusinessLogic();</span>
+	
+	private JList&lt;Transaction&gt; list;
+
+	private JScrollPane scrollBar;
+
+	private JScrollPane scrollBar_1;
+
+	private JList&lt;Transaction&gt; list_1;
+<span class="nc" id="L38">	private DefaultListModel&lt;Transaction&gt; apustuaEzabatu = new DefaultListModel&lt;Transaction&gt;();</span>
+	private JList&lt;Transaction&gt; list_2;
+<span class="nc" id="L40">	private DefaultListModel&lt;Transaction&gt; diruaSartu = new DefaultListModel&lt;Transaction&gt;();</span>
+	private JList&lt;Transaction&gt; list_3;
+<span class="nc" id="L42">	private DefaultListModel&lt;Transaction&gt; apustuaIrabazi = new DefaultListModel&lt;Transaction&gt;();</span>
+	private JScrollPane scrollBar_2;
+	private JScrollPane scrollBar_3;
+	private JLabel lblNewLabel_1;
+	private JLabel lblNewLabel_2;
+	private JLabel lblNewLabel_3;
+	private JLabel lblNewLabel_4;
+	private JLabel lblNewLabel_5;
+
+	private JLabel lblNewLabel;
+	private JButton btnNewButton;
+	
+<span class="nc" id="L54">	public MugimenduakBistaratuGUI(Registered u) {</span>
+<span class="nc" id="L55">		user = u; </span>
+		try {
+<span class="nc" id="L57">			jbInit();</span>
+<span class="nc" id="L58">		} catch (Exception e) {</span>
+<span class="nc" id="L59">			e.printStackTrace();</span>
+		}
+<span class="nc" id="L61">	}</span>
+	private void jbInit() throws Exception {
+		
+		
+<span class="nc" id="L65">		this.getContentPane().setLayout(null);</span>
+<span class="nc" id="L66">		this.setSize(new Dimension(3000, 500));</span>
+<span class="nc" id="L67">		this.setTitle(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;MugimenduakBistaratu&quot;));</span>
+		
+<span class="nc" id="L69">		lblMugimenduakBistaratu = new JLabel(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Mugimenduak&quot;));</span>
+<span class="nc" id="L70">		lblMugimenduakBistaratu.setFont(new Font(&quot;Times New Roman&quot;, Font.BOLD, 18));</span>
+<span class="nc" id="L71">		lblMugimenduakBistaratu.setHorizontalAlignment(SwingConstants.CENTER);</span>
+<span class="nc" id="L72">		lblMugimenduakBistaratu.setBounds(662, 10, 242, 57);</span>
+<span class="nc" id="L73">		getContentPane().add(lblMugimenduakBistaratu);</span>
+		
+<span class="nc" id="L75">		list = new JList&lt;Transaction&gt;();</span>
+<span class="nc" id="L76">		list.setModel(diruaSartu);</span>
+<span class="nc" id="L77">		list.setBounds(0, 0, 419, 150);</span>
+<span class="nc" id="L78">		getContentPane().add(list);</span>
+		
+<span class="nc" id="L80">		list_1 = new JList();</span>
+<span class="nc" id="L81">		list_1.setModel(apustuaEgin);</span>
+<span class="nc" id="L82">		list_1.setBounds(645, 217, 173, -100);</span>
+<span class="nc" id="L83">		getContentPane().add(list_1);</span>
+		
+<span class="nc" id="L85">		list_2 = new JList();</span>
+<span class="nc" id="L86">		list_2.setModel(apustuaEzabatu);</span>
+<span class="nc" id="L87">		list_2.setBounds(1063, 101, 1, 1);</span>
+<span class="nc" id="L88">		getContentPane().add(list_2);</span>
+		
+<span class="nc" id="L90">		list_3 = new JList();</span>
+<span class="nc" id="L91">		list_3.setModel(apustuaIrabazi);</span>
+<span class="nc" id="L92">		list_3.setBounds(1063, 101, 1, 1);</span>
+<span class="nc" id="L93">		getContentPane().add(list_3);</span>
+		
+<span class="nc bnc" id="L95" title="All 2 branches missed.">		for(Transaction l : businessLogic.findTransakzioak(user)) {</span>
+<span class="nc bnc" id="L96" title="All 2 branches missed.">			if(l.getMota().compareTo(&quot;DiruaSartu&quot;)==0) {</span>
+<span class="nc" id="L97">				diruaSartu.addElement(l);</span>
+<span class="nc bnc" id="L98" title="All 2 branches missed.">			}else if(l.getMota().compareTo(&quot;ApustuaEgin&quot;)==0){</span>
+<span class="nc" id="L99">				apustuaEgin.addElement(l);</span>
+<span class="nc bnc" id="L100" title="All 2 branches missed.">			}else if(l.getMota().compareTo(&quot;ApustuaEzabatu&quot;)==0){</span>
+<span class="nc" id="L101">				apustuaEzabatu.addElement(l);</span>
+<span class="nc bnc" id="L102" title="All 2 branches missed.">			}else if(l.getMota().compareTo(&quot;ApustuaIrabazi&quot;)==0) {</span>
+<span class="nc" id="L103">				apustuaIrabazi.addElement(l);</span>
+			}
+		}
+<span class="nc" id="L106">		list.setBackground(Color.green);</span>
+<span class="nc" id="L107">		list_1.setBackground(Color.red);</span>
+<span class="nc" id="L108">		list_2.setBackground(Color.green);</span>
+<span class="nc" id="L109">		list_3.setBackground(Color.green);</span>
+<span class="nc" id="L110">		scrollBar = new JScrollPane(list);</span>
+<span class="nc" id="L111">		scrollBar.setBounds(26, 89, 340, 150);</span>
+<span class="nc" id="L112">		getContentPane().add(scrollBar);</span>
+		
+		
+		
+<span class="nc" id="L116">		scrollBar_1 = new JScrollPane(list_1);</span>
+<span class="nc" id="L117">		scrollBar_1.setBounds(397, 89, 338, 150);</span>
+<span class="nc" id="L118">		getContentPane().add(scrollBar_1);</span>
+		
+		
+		
+<span class="nc" id="L122">		scrollBar_2 = new JScrollPane(list_2);</span>
+<span class="nc" id="L123">		scrollBar_2.setBounds(767, 89, 338, 150);</span>
+<span class="nc" id="L124">		getContentPane().add(scrollBar_2);</span>
+		
+<span class="nc" id="L126">		scrollBar_3 = new JScrollPane(list_3);</span>
+<span class="nc" id="L127">		scrollBar_3.setBounds(1141, 89, 347, 150);</span>
+<span class="nc" id="L128">		getContentPane().add(scrollBar_3);</span>
+		
+<span class="nc" id="L130">		lblNewLabel = new JLabel(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;SarDirMug&quot;));</span>
+<span class="nc" id="L131">		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);</span>
+<span class="nc" id="L132">		lblNewLabel.setFont(new Font(&quot;Tahoma&quot;, Font.BOLD, 12));</span>
+<span class="nc" id="L133">		lblNewLabel.setBounds(27, 74, 339, 13);</span>
+<span class="nc" id="L134">		getContentPane().add(lblNewLabel);</span>
+		
+<span class="nc" id="L136">		lblNewLabel_1 = new JLabel(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;ApEginMug&quot;));</span>
+<span class="nc" id="L137">		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);</span>
+<span class="nc" id="L138">		lblNewLabel_1.setFont(new Font(&quot;Tahoma&quot;, Font.BOLD, 12));</span>
+<span class="nc" id="L139">		lblNewLabel_1.setBounds(397, 77, 338, 13);</span>
+<span class="nc" id="L140">		getContentPane().add(lblNewLabel_1);</span>
+		
+<span class="nc" id="L142">		lblNewLabel_2 = new JLabel(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;ApEzabMug&quot;));</span>
+<span class="nc" id="L143">		lblNewLabel_2.setFont(new Font(&quot;Tahoma&quot;, Font.BOLD, 12));</span>
+<span class="nc" id="L144">		lblNewLabel_2.setHorizontalAlignment(SwingConstants.CENTER);</span>
+<span class="nc" id="L145">		lblNewLabel_2.setBounds(767, 74, 338, 13);</span>
+<span class="nc" id="L146">		getContentPane().add(lblNewLabel_2);</span>
+		
+<span class="nc" id="L148">		lblNewLabel_3 = new JLabel(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Saldoa&quot;));</span>
+<span class="nc" id="L149">		lblNewLabel_3.setFont(new Font(&quot;Tahoma&quot;, Font.BOLD, 12));</span>
+<span class="nc" id="L150">		lblNewLabel_3.setBounds(585, 358, 132, 13);</span>
+<span class="nc" id="L151">		getContentPane().add(lblNewLabel_3);</span>
+		
+<span class="nc" id="L153">		lblNewLabel_4 = new JLabel(businessLogic.saldoaBistaratu(user));</span>
+<span class="nc" id="L154">		lblNewLabel_4.setBounds(719, 359, 102, 13);</span>
+<span class="nc" id="L155">		getContentPane().add(lblNewLabel_4);</span>
+		
+<span class="nc" id="L157">		lblNewLabel_5 = new JLabel(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;ApIrabMug&quot;));</span>
+<span class="nc" id="L158">		lblNewLabel_5.setHorizontalAlignment(SwingConstants.CENTER);</span>
+<span class="nc" id="L159">		lblNewLabel_5.setFont(new Font(&quot;Tahoma&quot;, Font.BOLD, 12));</span>
+<span class="nc" id="L160">		lblNewLabel_5.setBounds(1141, 74, 347, 13);</span>
+<span class="nc" id="L161">		getContentPane().add(lblNewLabel_5);</span>
+		
+<span class="nc" id="L163">		btnNewButton = new JButton(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Close&quot;)); //$NON-NLS-1$ //$NON-NLS-2$</span>
+<span class="nc" id="L164">		btnNewButton.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent e) {
+<span class="nc" id="L166">				jButtonClose_actionPerformed(e);</span>
+<span class="nc" id="L167">			}</span>
+		});
+<span class="nc" id="L169">		btnNewButton.setBounds(1342, 403, 132, 36);</span>
+<span class="nc" id="L170">		getContentPane().add(btnNewButton);</span>
+		
+<span class="nc" id="L172">	}</span>
+	
+	private void jButtonClose_actionPerformed(ActionEvent e) {
+<span class="nc" id="L175">		this.setVisible(false);</span>
+<span class="nc" id="L176">	}</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

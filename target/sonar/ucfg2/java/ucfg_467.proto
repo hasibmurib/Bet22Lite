@@ -1,0 +1,73 @@
+
+.domain.Apustua#galdutaMarkatu(Ldomain/Quote;)ZE
+;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaH H("4*—
+2E
+;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaJ J(z
+x
+E
+;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaJ J(
+domain.Apustua"
+egoera"__id*	
+galduta"O
+E
+;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaK K(
+""*Ú
+3E
+;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaIW I(Z¾»
+E
+;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaIW I(k
+%5java.lang.Integer"0domain.Quote#getQuoteNumber()Ljava/lang/Integer;*
+
+quodomain.Quote2getQuoteNumber()ƒ
+€
+E
+;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaIm I(r
+%6domain.Quote"__id**
+domain.Apustua"
+kuota¾»
+F
+;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaIm I(ƒ
+%7java.lang.Integer"0domain.Quote#getQuoteNumber()Ljava/lang/Integer;*
+
+%6domain.Quote2getQuoteNumber()*
+2
+1*Ý
+4E
+;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaI I(
+ƒ
+€
+E
+;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaI I(
+
+%0domain.Quote"__id**
+domain.Apustua"
+kuota³°
+E
+;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaI I(
+%1domain.Question"+domain.Quote#getQuestion()Ldomain/Question;*
+
+%0domain.Quote2getQuestion()ÉÆ
+E
+;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaI I(,
+%2java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
+
+%1domain.Question2getQuestionNumber()´±
+E
+;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaI. I(?
+%3domain.Question"+domain.Quote#getQuestion()Ldomain/Question;*
+
+quodomain.Quote2getQuestion()ÉÆ
+E
+;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaI. I(S
+%4java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
+
+%3domain.Question2getQuestionNumber()*
+3
+1*›
+1E
+;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaM	 M("O
+E
+;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaM M(
+"":
+quodomain.QuoteB
+domain.Apustua

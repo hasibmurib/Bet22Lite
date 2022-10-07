@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: CreateQuestionMockInt
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.76 sec <<< FAILURE! - in CreateQuestionMockInt
+test3(CreateQuestionMockInt)  Time elapsed: 0.014 sec  <<< ERROR!
+java.lang.NullPointerException
+	at CreateQuestionMockInt.test3(CreateQuestionMockInt.java:107)
+

@@ -1,0 +1,16 @@
+
++domain.Event#getEventDate()Ljava/util/Date;C
+9/home/hasib/git/Bet22Lite/src/main/java/domain/Event.javaR R("1*¯
+1C
+9/home/hasib/git/Bet22Lite/src/main/java/domain/Event.javaS	 S(…
+‚
+C
+9/home/hasib/git/Bet22Lite/src/main/java/domain/Event.javaS	 S(
+%0java.util.Date"__id**
+domain.Event"
+	eventDate"]
+C
+9/home/hasib/git/Bet22Lite/src/main/java/domain/Event.javaS S(
+
+%0java.util.DateB
+domain.Event

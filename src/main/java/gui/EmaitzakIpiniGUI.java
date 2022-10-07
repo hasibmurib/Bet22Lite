@@ -21,6 +21,7 @@ import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JScrollPane;
+import javax.swing.SwingConstants;
 
 import com.toedter.calendar.JCalendar;
 
@@ -31,7 +32,6 @@ import domain.Question;
 import domain.Quote;
 import domain.Registered;
 import exceptions.EventNotFinished;
-import javax.swing.SwingConstants;
 
 public class EmaitzakIpiniGUI extends JFrame{
 	private BLFacade businessLogic = MainGUI.getBusinessLogic();

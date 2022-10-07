@@ -1,5 +1,6 @@
 package gui;
 
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -15,7 +16,6 @@ import javax.swing.SwingConstants;
 
 import businessLogic.BLFacade;
 import domain.Registered;
-import java.awt.Color;
 
 public class DiruaSartuGUI extends JFrame{
 	

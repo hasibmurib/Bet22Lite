@@ -21,14 +21,13 @@ import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JScrollPane;
+import javax.swing.SwingConstants;
 
 import com.toedter.calendar.JCalendar;
 
 import businessLogic.BLFacade;
 import configuration.UtilDate;
-import domain.Apustua;
 import domain.Event;
-import javax.swing.SwingConstants;
 
 public class GertaeraEzabatuGUI extends JFrame{
 

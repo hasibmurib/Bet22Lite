@@ -6,7 +6,6 @@ import java.util.Calendar;
 import java.util.Collection;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -22,10 +21,8 @@ import configuration.ConfigXML;
 import configuration.UtilDate;
 import domain.ApustuAnitza;
 import domain.Apustua;
-
 import domain.Event;
 import domain.Jarraitzailea;
-
 import domain.Question;
 import domain.Quote;
 import domain.Registered;
@@ -732,10 +729,13 @@ public void open(boolean initializeMode){
 		boolean b = true;
 		db.getTransaction().begin();
 		Sport spo =db.find(Sport.class, sport);
+		System.out.println("El deporte existe?"+ spo);
 		if(spo!=null) {
+			System.out.println("Existe deporte");
 			TypedQuery<Event> Equery = db.createQuery("SELECT e FROM Event e WHERE e.getEventDate() =?1 ",Event.class);
 			Equery.setParameter(1, eventDate);
 			for(Event ev: Equery.getResultList()) {
+				System.out.println("Entra en el for");
 				if(ev.getDescription().equals(description)) {
 					b = false;
 				}
@@ -749,9 +749,11 @@ public void open(boolean initializeMode){
 				spo.addEvent(e);
 				db.persist(e);
 			}
-		}else {
+		}
+		else {
 			return false;
 		}
+		
 		db.getTransaction().commit();
 		return b;
 	}

@@ -1,6 +1,8 @@
 package gui;
 
+import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -15,17 +17,15 @@ import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.JScrollPane;
 import javax.swing.SwingConstants;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 
 import businessLogic.BLFacade;
 import domain.Event;
 import domain.Question;
 import domain.Quote;
-import domain.Sport;
 import domain.Registered;
-import javax.swing.event.ListSelectionListener;
-import javax.swing.event.ListSelectionEvent;
-import java.awt.Color;
-import java.awt.Font;
+import domain.Sport;
 
 public class PopularGUI extends JFrame{
 	private BLFacade businessLogic = MainGUI.getBusinessLogic();

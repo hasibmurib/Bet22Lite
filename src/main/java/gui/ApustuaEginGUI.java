@@ -3,6 +3,7 @@ package gui;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.Rectangle;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -33,11 +34,7 @@ import configuration.UtilDate;
 import domain.Event;
 import domain.Question;
 import domain.Quote;
-import domain.Transaction;
 import domain.Registered;
-import exceptions.ApustuaAlreadyExist;
-import exceptions.EventFinished;
-import java.awt.Font;
 
 public class ApustuaEginGUI extends JFrame{
 

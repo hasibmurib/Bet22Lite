@@ -21,7 +21,6 @@ import javax.swing.JRadioButton;
 import javax.swing.SwingConstants;
 
 import businessLogic.BLFacade;
-import domain.Registered;
 
 
 public class MainUserGUI extends JFrame {

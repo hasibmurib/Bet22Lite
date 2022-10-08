@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="createQuestionTest.CreateQuestionDAW" time="0.167" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="createQuestionTest.CreateQuestionDAW" time="0.266" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.16+8-post-Ubuntu-0ubuntu122.04"/>
@@ -60,6 +60,6 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="test2" classname="createQuestionTest.CreateQuestionDAW" time="0.113"/>
-  <testcase name="test1" classname="createQuestionTest.CreateQuestionDAW" time="0.054"/>
+  <testcase name="test1" classname="createQuestionTest.CreateQuestionDAW" time="0.109"/>
+  <testcase name="test2" classname="createQuestionTest.CreateQuestionDAW" time="0.157"/>
 </testsuite>

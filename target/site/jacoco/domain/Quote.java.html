@@ -98,7 +98,7 @@ public class Quote implements Serializable{
 <span class="nc" id="L98">		boolean aurkitua = false; </span>
 <span class="nc" id="L99">		int i = 0; </span>
 <span class="nc bnc" id="L100" title="All 4 branches missed.">		while( i&lt;apustuak.size() &amp;&amp; !aurkitua) {</span>
-<span class="nc bnc" id="L101" title="All 2 branches missed.">			if(apustuak.get(i).getApostuaNumber()==a.getApostuaNumber()) {</span>
+<span class="nc bnc" id="L101" title="All 2 branches missed.">			if(apustuak.get(i).getApostuaNumber().equals(a.getApostuaNumber())) {</span>
 <span class="nc" id="L102">				apustuak.remove(i); </span>
 <span class="nc" id="L103">				aurkitua = true; </span>
 			}

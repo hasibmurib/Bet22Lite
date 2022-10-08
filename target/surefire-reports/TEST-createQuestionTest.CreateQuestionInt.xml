@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="createQuestionTest.CreateQuestionInt" time="0.514" tests="2" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="createQuestionTest.CreateQuestionInt" time="0.56" tests="2" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.16+8-post-Ubuntu-0ubuntu122.04"/>
@@ -60,9 +60,9 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="test2" classname="createQuestionTest.CreateQuestionInt" time="0.122">
+  <testcase name="test1" classname="createQuestionTest.CreateQuestionInt" time="0.128">
     <failure type="java.lang.AssertionError:">java.lang.AssertionError: 
-	at createQuestionTest.CreateQuestionInt.test2(CreateQuestionInt.java:123)
+	at createQuestionTest.CreateQuestionInt.test1(CreateQuestionInt.java:75)
 </failure>
     <system-out><![CDATA[Creating DataAccess instance => isDatabaseLocal: true getDatabBaseOpenMode: initialize
 Opening DataAccess instance => isDatabaseLocal: true getDatabBaseOpenMode: initialize
@@ -113,8 +113,8 @@ Finally true
     <system-err><![CDATA[[ObjectDB 2.8.1] javax.persistence.RollbackException
 Failed to commit transaction: Attempt to reuse an existing primary key value (domain.Team:'Alaves') (error 613)
 	at com.objectdb.jpa.EMImpl.commit(EMImpl.java:289)
-	at dataAccess.DataAccess.initializeDB(DataAccess.java:592)
-	at businessLogic.BLFacadeImplementation.<init>(BLFacadeImplementation.java:56)
+	at dataAccess.DataAccess.initializeDB(DataAccess.java:594)
+	at businessLogic.BLFacadeImplementation.<init>(BLFacadeImplementation.java:57)
 	at createQuestionTest.CreateQuestionInt.setUpClass(CreateQuestionInt.java:35)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -162,9 +162,9 @@ Caused by: com.objectdb.o.UserException: Attempt to reuse an existing primary ke
 	... 20 more
 ]]></system-err>
   </testcase>
-  <testcase name="test1" classname="createQuestionTest.CreateQuestionInt" time="0.137">
+  <testcase name="test2" classname="createQuestionTest.CreateQuestionInt" time="0.106">
     <failure type="java.lang.AssertionError:">java.lang.AssertionError: 
-	at createQuestionTest.CreateQuestionInt.test1(CreateQuestionInt.java:75)
+	at createQuestionTest.CreateQuestionInt.test2(CreateQuestionInt.java:123)
 </failure>
     <system-out><![CDATA[Opening TestDataAccess instance 
 >> DataAccessTest: addEvent

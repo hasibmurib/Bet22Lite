@@ -1008,15 +1008,15 @@ Bets2222,com.toedter.components,JSpinFieldBeanInfo,5,0,0,0,0,0,1,0,1,0
 Bets2222,com.toedter.components,UTF8ResourceBundle.UTF8PropertyResourceBundle,35,0,2,0,0,0,4,0,3,0
 Bets2222,com.toedter.components,JTitlePanel,98,0,4,0,0,0,4,0,2,0
 Bets2222,com.toedter.components,GenericBeanInfo,106,0,11,0,0,0,9,0,2,0
-Bets2222,domain,Apustua,62,18,6,0,20,9,13,3,10,3
+Bets2222,domain,Apustua,64,18,6,0,20,9,13,3,10,3
 Bets2222,domain,IntegerAdapter,14,0,2,0,4,0,4,0,3,0
 Bets2222,domain,Transaction,57,15,0,0,18,6,12,1,12,1
 Bets2222,domain,Sport,34,41,2,0,13,12,8,5,7,5
 Bets2222,domain,Question,101,51,4,0,27,14,15,5,13,5
-Bets2222,domain,Quote,111,31,10,0,32,10,19,3,14,3
+Bets2222,domain,Quote,112,31,10,0,32,10,19,3,14,3
 Bets2222,domain,Jarraitzailea,45,0,0,0,19,0,10,0,10,0
 Bets2222,domain,Team,33,35,0,0,13,9,8,3,8,3
-Bets2222,domain,Registered,123,106,1,1,42,34,26,12,25,12
+Bets2222,domain,Registered,146,84,2,0,49,27,32,6,31,6
 Bets2222,domain,Event,81,115,8,4,31,30,16,13,12,11
 Bets2222,domain,TeamRenderer,69,0,2,0,17,0,3,0,2,0
 Bets2222,domain,ApustuAnitza,155,43,12,0,40,13,24,4,18,4
@@ -1187,7 +1187,7 @@ Bets2222,org.objenesis.instantiator.util,ClassDefinitionUtils,114,0,2,0,19,0,5,0
 Bets2222,org.objenesis.instantiator.util,DefineClassHelper.Java8,81,0,4,0,16,0,5,0,3,0
 Bets2222,org.objenesis.instantiator.util,ClassUtils,32,0,0,0,8,0,4,0,4,0
 Bets2222,dataAccess,ObjectdbManagerServer,189,0,2,0,41,0,3,0,2,0
-Bets2222,dataAccess,DataAccess,1537,2206,84,22,309,490,78,16,33,8
+Bets2222,dataAccess,DataAccess,1570,2153,90,16,316,480,81,13,34,7
 Bets2222,dataAccess,ObjectdbManagerServer.new ActionListener() {...},47,0,0,0,10,0,2,0,2,0
 Bets2222,javax.transaction.xa,XAException,13,0,0,0,7,0,3,0,3,0
 Bets2222,net.bytebuddy.description.method,ParameterList.ForLoadedExecutable.Dispatcher.ForLegacyVm,31,0,0,0,5,0,4,0,4,0
@@ -3088,7 +3088,7 @@ Bets2222,com.toedter.calendar.demo,JCalendarDemo.new PropertyChangeListener() {.
 Bets2222,com.toedter.calendar.demo,JCalendarDemo.new ActionListener() {...},28,0,0,0,0,0,2,0,2,0
 Bets2222,com.toedter.calendar.demo,JCalendarDemo.new JPanel() {...},12,0,0,0,0,0,2,0,2,0
 Bets2222,com.toedter.calendar.demo,DemoTable,48,0,2,0,0,0,2,0,1,0
-Bets2222,businessLogic,BLFacadeImplementation,500,91,4,4,143,25,37,5,34,4
+Bets2222,businessLogic,BLFacadeImplementation,528,69,5,3,150,19,39,3,35,3
 Bets2222,businessLogic,BusinessLogicServer.new ActionListener() {...},14,0,0,0,4,0,2,0,2,0
 Bets2222,businessLogic,BusinessLogicServer.new WindowAdapter() {...},9,0,0,0,3,0,2,0,2,0
 Bets2222,businessLogic,BusinessLogicServer,229,0,4,0,47,0,4,0,2,0

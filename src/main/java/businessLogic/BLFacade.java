@@ -76,7 +76,7 @@ public interface BLFacade  {
 	
 	@WebMethod public Collection<Question> findQuestion(Event event);
 	
-	@WebMethod public void DiruaSartu(Registered u, Double dirua, String mota); 
+	@WebMethod public void diruaSartu(Registered u, Double dirua, String mota); 
 	
 	@WebMethod public Collection<Quote> findQuote(Question question); 
 	

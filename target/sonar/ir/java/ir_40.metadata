@@ -3,6 +3,7 @@ domain.ApustuAnitza#instance-init#
 java.util.Date#<init>()V
 domain.ApustuAnitza#<init>(Ldomain/Registered;Ljava/lang/Double;)V
 domain.Apustua#<init>(Ldomain/ApustuAnitza;Ldomain/Quote;)V
+java.lang.Integer#equals(Ljava/lang/Object;)Z
 domain.Transaction#<init>(Ldomain/Registered;Ljava/lang/Double;Ljava/util/Date;Ljava/lang/String;)V
 java.util.Date#instance-init#
 domain.Apustua#instance-init#

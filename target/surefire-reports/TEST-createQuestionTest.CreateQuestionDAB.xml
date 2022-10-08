@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="createQuestionTest.CreateQuestionDAB" time="1.699" tests="3" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="createQuestionTest.CreateQuestionDAB" time="1.683" tests="3" errors="2" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.16+8-post-Ubuntu-0ubuntu122.04"/>
@@ -60,7 +60,7 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="test3" classname="createQuestionTest.CreateQuestionDAB" time="1.55">
+  <testcase name="test3" classname="createQuestionTest.CreateQuestionDAB" time="1.565">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at createQuestionTest.CreateQuestionDAB.test3(CreateQuestionDAB.java:139)
 </error>
@@ -71,18 +71,18 @@ Opening TestDataAccess instance
 Opening TestDataAccess instance 
 >> DataAccessTest: addEvent
 DataBase closed
->> DataAccess: createQuestion=> event= 2755;event1 question= null betMinimum=2.0
+>> DataAccess: createQuestion=> event= 5311;event1 question= null betMinimum=2.0
 Opening TestDataAccess instance 
 >> DataAccessTest: removeEvent
 DataBase closed
 ]]></system-out>
   </testcase>
-  <testcase name="test2" classname="createQuestionTest.CreateQuestionDAB" time="0.001">
+  <testcase name="test1" classname="createQuestionTest.CreateQuestionDAB" time="0.116"/>
+  <testcase name="test2" classname="createQuestionTest.CreateQuestionDAB" time="0.002">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at createQuestionTest.CreateQuestionDAB.test2(CreateQuestionDAB.java:101)
 </error>
     <system-out><![CDATA[>> DataAccess: createQuestion=> event= null question= query1 betMinimum=2.0
 ]]></system-out>
   </testcase>
-  <testcase name="test1" classname="createQuestionTest.CreateQuestionDAB" time="0.144"/>
 </testsuite>

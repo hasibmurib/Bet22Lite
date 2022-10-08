@@ -98,7 +98,7 @@ public class Registered  implements Serializable{
 <span class="nc" id="L98">	}</span>
 	
 	public Double getIrabazitakoa() {
-<span class="fc" id="L101">		return irabazitakoa;</span>
+<span class="nc" id="L101">		return irabazitakoa;</span>
 	}
 	
 	public void setIrabazitakoa(Double irabazitakoa) {
@@ -171,10 +171,10 @@ public class Registered  implements Serializable{
 	
 	@Override
 	public String toString() {
-<span class="pc bpc" id="L174" title="1 of 2 branches missed.">		if(this.mode==&quot;RankingGUI&quot;)</span>
+<span class="nc bnc" id="L174" title="All 2 branches missed.">		if(this.mode.equals(&quot;RankingGUI&quot;))</span>
 <span class="nc" id="L175">			return this.getUsername() + &quot; &quot; + this.zenbat +&quot;: &quot; + this.irabazitakoa + &quot;�&quot;;</span>
 		else
-<span class="fc" id="L177">			return this.getUsername();</span>
+<span class="nc" id="L177">			return this.getUsername();</span>
 	}
 	
 	public Team getTaldea() {
@@ -185,7 +185,7 @@ public class Registered  implements Serializable{
 <span class="nc" id="L185">		this.taldea = taldea;</span>
 <span class="nc" id="L186">	}</span>
 	public String getUsername() {
-<span class="fc" id="L188">		return usrname;</span>
+<span class="nc" id="L188">		return usrname;</span>
 	}
 
 	public void setUsername(String usrname) {
@@ -193,7 +193,7 @@ public class Registered  implements Serializable{
 <span class="nc" id="L193">	}</span>
 
 	public String getPassword() {
-<span class="fc" id="L196">		return password;</span>
+<span class="nc" id="L196">		return password;</span>
 	}
 
 	public void setPassword(String password) {
@@ -201,14 +201,14 @@ public class Registered  implements Serializable{
 <span class="nc" id="L201">	}</span>
 
 	public Integer getBankAccount() {
-<span class="fc" id="L204">		return bankAccount;</span>
+<span class="nc" id="L204">		return bankAccount;</span>
 	}
 
 	public void setBankAccount(Integer bankAccount) {
 <span class="nc" id="L208">		this.bankAccount = bankAccount;</span>
 <span class="nc" id="L209">	}</span>
 	public boolean isAdmin() {
-<span class="fc" id="L211">		return isAdmin;</span>
+<span class="nc" id="L211">		return isAdmin;</span>
 	}
 	
 }

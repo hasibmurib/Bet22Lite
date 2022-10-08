@@ -8,59 +8,59 @@
 J
 >/home/hasib/git/Bet22Lite/src/main/java/domain/Registered.java¯
  ¯(
-%1java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*
+%2java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*
 domain.Registered2getUsername()’
 
 J
 >/home/hasib/git/Bet22Lite/src/main/java/domain/Registered.java¯
  ¯("
-%2java.lang.String"__concat*
+%3java.lang.String"__concat*
 
-%1java.lang.String*
+%2java.lang.String*
  “
 
 J
 >/home/hasib/git/Bet22Lite/src/main/java/domain/Registered.java¯
  ¯(0
-%3java.lang.String"__concat*
+%4java.lang.String"__concat*
 
-%2java.lang.String*
+%3java.lang.String*
 ""“
 
 J
 >/home/hasib/git/Bet22Lite/src/main/java/domain/Registered.java¯
  ¯(6
-%4java.lang.String"__concat*
+%5java.lang.String"__concat*
 
-%3java.lang.String*
+%4java.lang.String*
 : –
 “
 J
 >/home/hasib/git/Bet22Lite/src/main/java/domain/Registered.java¯9 ¯(J
-%5java.lang.Double"__id*'*%
+%6java.lang.Double"__id*'*%
 domain.Registered"
 irabazitakoa¥
 ¢
 J
 >/home/hasib/git/Bet22Lite/src/main/java/domain/Registered.java¯
  ¯(J
-%6java.lang.String"__concat*
+%7java.lang.String"__concat*
 
-%4java.lang.String*
+%5java.lang.String*
 
-%5java.lang.Double”
+%6java.lang.Double”
 ‘
 J
 >/home/hasib/git/Bet22Lite/src/main/java/domain/Registered.java¯
  ¯(P
-%7java.lang.String"__concat*
+%8java.lang.String"__concat*
 
-%6java.lang.String*
+%7java.lang.String*
 ï¿½"f
 J
 >/home/hasib/git/Bet22Lite/src/main/java/domain/Registered.java¯ ¯(Q
 
-%7java.lang.String*è
+%8java.lang.String*½
 3J
 >/home/hasib/git/Bet22Lite/src/main/java/domain/Registered.java® ®(	Ž
 ‹
@@ -68,7 +68,14 @@ J
 >/home/hasib/git/Bet22Lite/src/main/java/domain/Registered.java® ®(
 %0java.lang.String"__id**
 domain.Registered"
-mode*
+modeÒÏ
+J
+>/home/hasib/git/Bet22Lite/src/main/java/domain/Registered.java® ®(#
+%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%0java.lang.String*
+
+RankingGUI2equals(Ljava/lang/Object;)*
 2
 1*ú
 1J
@@ -77,10 +84,10 @@ J
 J
 >/home/hasib/git/Bet22Lite/src/main/java/domain/Registered.java±
  ±(
-%8java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*
+%9java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*
 domain.Registered2getUsername()"f
 J
 >/home/hasib/git/Bet22Lite/src/main/java/domain/Registered.java± ±(
 
-%8java.lang.StringB
+%9java.lang.StringB
 domain.Registered

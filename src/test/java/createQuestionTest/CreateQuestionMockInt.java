@@ -149,12 +149,9 @@ public class CreateQuestionMockInt {
 			
 			//if the program continues fail
 		    fail();
-		   } catch (QuestionAlreadyExist e) {
-			// TODO Auto-generated catch block
-			   
-			// if the program goes to this point OK
+		  
 			assertTrue(true);
-			} catch (EventFinished e) {
+			} catch (EventFinished | QuestionAlreadyExist e) {
 				// if the program goes to this point fail
 			    fail();
 				// TODO Auto-generated catch block

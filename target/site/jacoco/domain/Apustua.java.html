@@ -70,7 +70,7 @@ public class Apustua implements Serializable{
 <span class="nc" id="L70">	}</span>
 	
 	public boolean galdutaMarkatu(Quote quo) {
-<span class="nc bnc" id="L73" title="All 4 branches missed.">		if(kuota.getQuestion().getQuestionNumber()==quo.getQuestion().getQuestionNumber() &amp;&amp; quo.getQuoteNumber()!=kuota.getQuoteNumber()) {</span>
+<span class="nc bnc" id="L73" title="All 4 branches missed.">		if(kuota.getQuestion().getQuestionNumber().equals(quo.getQuestion().getQuestionNumber()) &amp;&amp; !quo.getQuoteNumber().equals(kuota.getQuoteNumber())) {</span>
 <span class="nc" id="L74">			this.egoera=&quot;galduta&quot;;</span>
 <span class="nc" id="L75">			return true;</span>
 		}

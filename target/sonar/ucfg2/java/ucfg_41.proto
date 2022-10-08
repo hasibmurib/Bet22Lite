@@ -1,66 +1,47 @@
 
 KdataAccess.DataAccess#findApustuAnitza(Ldomain/Registered;)Ljava/util/List;N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaè è(+"1*Ã
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaë ë(+"1*ö
 1N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaê! ê(#£
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaì$ ì(&£
 †
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaê! ê(#%
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaì$ ì(&%
 %0javax.persistence.EntityManager"__id*!*
-dataAccess.DataAccess"
-db«ƒ
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaê; ê(J
-%1java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*
-
-udomain.Registered2getUsername()øº
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaê! ê(K
-%2domain.Registered"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
-%
-%0javax.persistence.EntityManager*
-""*
-
-%1java.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)£
-†
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaë$ ë(&%
-%3javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 dbïí
 O
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaë$ ë(é"
-%4javax.persistence.TypedQuery"njavax.persistence.EntityManager#createQuery(Ljava/lang/String;Ljava/lang/Class;)Ljavax/persistence/TypedQuery;*'
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaì$ ì(é"
+%1javax.persistence.TypedQuery"njavax.persistence.EntityManager#createQuery(Ljava/lang/String;Ljava/lang/Class;)Ljavax/persistence/TypedQuery;*'
 %
-%3javax.persistence.EntityManager*HF
+%0javax.persistence.EntityManager*HF
 DSELECT aa FROM ApustuAnitza aa WHERE aa.getUser().getUsername() =?1 *
 ""20createQuery(Ljava/lang/String;Ljava/lang/Class;)®
 •
 O
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaë ë(è&
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaì ì(è&
 Aqueryjavax.persistence.TypedQuery"__id*$
 "
-%4javax.persistence.TypedQuery«ƒ
+%1javax.persistence.TypedQuery«ƒ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaí í((
-%5java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaî î((
+%2java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*
 
 udomain.Registered2getUsername()¬ø
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaí í()"
-%6javax.persistence.TypedQuery"\javax.persistence.TypedQuery#setParameter(ILjava/lang/Object;)Ljavax/persistence/TypedQuery;*(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaî î()"
+%3javax.persistence.TypedQuery"\javax.persistence.TypedQuery#setParameter(ILjava/lang/Object;)Ljavax/persistence/TypedQuery;*(
 &
 Aqueryjavax.persistence.TypedQuery*2*
 
-%5java.lang.String2!setParameter(ILjava/lang/Object;)‚ﬂ
+%2java.lang.String2!setParameter(ILjava/lang/Object;)‚ﬂ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaì	 ì(
-%7java.util.List"<javax.persistence.TypedQuery#getResultList()Ljava/util/List;*(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaï	 ï(
+%4java.util.List"<javax.persistence.TypedQuery#getResultList()Ljava/util/List;*(
 &
 Aqueryjavax.persistence.TypedQuery2getResultList()"h
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaì ì( 
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaï ï( 
 
-%7java.util.List:
+%4java.util.List:
 udomain.RegisteredB
 dataAccess.DataAccess

@@ -212,6 +212,8 @@ public class DataAccess  {
 			Question q10;
 			Question q11;
 			
+			final String GANADOR = "¿Quién ganará el partido?";
+			
 			Registered ad1=new Registered("admin", "123", 1234,true);
 			Registered reg1 =new Registered("registered", "123", 1234);
 			Registered reg2 = new Registered("andrea", "123", 1111);
@@ -219,11 +221,11 @@ public class DataAccess  {
 			Registered reg4 = new Registered("mikel", "123", 1111);
 									
 			if (Locale.getDefault().equals(new Locale("es"))) {
-				q1=ev1.addQuestion("¿Quién ganará el partido?",1);
+				q1=ev1.addQuestion(GANADOR,1);
 				q2=ev1.addQuestion("¿Quién meterá el primer gol?",2);
-				q3=ev11.addQuestion("¿Quién ganará el partido?",1);
+				q3=ev11.addQuestion(GANADOR,1);
 				q4=ev11.addQuestion("¿Cuántos goles se marcarán?",2);
-				q5=ev17.addQuestion("¿Quién ganará el partido?",1);
+				q5=ev17.addQuestion(GANADOR,1);
 				q6=ev17.addQuestion("¿Habrá goles en la primera parte?",2);
 				
 			}
@@ -707,8 +709,8 @@ public void open(boolean initializeMode){
 	
 	public Registered isLogin(String username, String password) {
 		Registered u = db.find(Registered.class, username);
-		if(u!=null) {
-			if(u.getPassword().equals(password)) return u;
+		if(u!=null && u.getPassword().equals(password)) {
+			return u;
 		}
 		return null;
 	}
@@ -864,7 +866,7 @@ public void open(boolean initializeMode){
 				Jarraitzailea erab=db.find(Jarraitzailea.class, reg.getJarraitzaileaNumber());
 				b=true;
 				for(ApustuAnitza apu: erab.getNork().getApustuAnitzak()) {
-					if(apu.getApustuKopia()==apustuAnitza.getApustuKopia()) {
+					if(apu.getApustuKopia().equals(apustuAnitza.getApustuKopia())) {
 						b=false;
 					}
 				}
@@ -903,20 +905,20 @@ public void open(boolean initializeMode){
 	}
 	
 	public List<Apustua> findApustua(Registered u){
-		Registered user = (Registered) db.find(Registered.class, u.getUsername()); 
+		
 		TypedQuery<Apustua> Aquery = db.createQuery("SELECT a FROM Apustua a WHERE a.getUser().getUsername() =?1 ", Apustua.class);
 		Aquery.setParameter(1, u.getUsername());
 		return Aquery.getResultList();
 	}
 	public List<ApustuAnitza> findApustuAnitza(Registered u){
-		Registered user = (Registered) db.find(Registered.class, u.getUsername()); 
+		
 		TypedQuery<ApustuAnitza> Aquery = db.createQuery("SELECT aa FROM ApustuAnitza aa WHERE aa.getUser().getUsername() =?1 ", ApustuAnitza.class);
 		Aquery.setParameter(1, u.getUsername());
 		return Aquery.getResultList();
 	}
 	
 	public List<Transaction> findTransakzioak(Registered u){
-		Registered user = (Registered) db.find(Registered.class, u.getUsername()); 
+		
 		TypedQuery<Transaction> Tquery = db.createQuery("SELECT t FROM Transaction t WHERE t.getErabiltzailea().getUsername() =?1 ", Transaction.class);
 		Tquery.setParameter(1, u.getUsername());
 		return Tquery.getResultList();
@@ -1088,8 +1090,8 @@ public void open(boolean initializeMode){
 	
 	public boolean jarraitu(Registered jabea, Registered jarraitua, Double limit) {
 		Boolean b=false;
-		Registered jarraitu = (Registered) db.find(Registered.class, jarraitua.getUsername());
-		Registered harpideduna = (Registered) db.find(Registered.class, jabea.getUsername());
+		Registered jarraitu = db.find(Registered.class, jarraitua.getUsername());
+		Registered harpideduna = db.find(Registered.class, jabea.getUsername());
 		if(!harpideduna.getJarraitutakoLista().contains(jarraitu)) {
 			db.getTransaction().begin();
 			Jarraitzailea jar = new Jarraitzailea(harpideduna, jarraitu);
@@ -1121,7 +1123,7 @@ public void open(boolean initializeMode){
 	}
 	
 	public void ezJarraituTaldea(Registered u) {
-		Registered r = (Registered) db.find(Registered.class, u.getUsername()); 
+		Registered r = db.find(Registered.class, u.getUsername()); 
 		db.getTransaction().begin();
 		Team t = db.find(Team.class, r.getTaldea());
 		t.removeUser(r);
@@ -1131,8 +1133,8 @@ public void open(boolean initializeMode){
 	
 	public List<Team> getAllTeams() {	
 		TypedQuery<Team> query = db.createQuery("SELECT t FROM Team t ",Team.class);   
-		List<Team> teams = query.getResultList();
-	 	return teams;
+		return query.getResultList();
+	 	
 	}
 	
 	public void jarraituTaldea(Registered u, Team t) {

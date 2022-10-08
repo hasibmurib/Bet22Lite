@@ -197,7 +197,7 @@ public class KuotakIpiniGUI extends JFrame{
 								jLabelErrorForecast.setVisible(true);
 								jLabelErrorForecast.setText(ResourceBundle.getBundle("Etiquetas").getString("QuoCorrect"));
 							} catch (QuoteAlreadyExist e1) {
-								// TODO Auto-generated catch block
+								
 								jLabelErrorForecast.setVisible(true);
 								jLabelErrorForecast.setText(ResourceBundle.getBundle("Etiquetas").getString("QuoteExist"));
 							}

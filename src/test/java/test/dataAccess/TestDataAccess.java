@@ -252,5 +252,21 @@ public class TestDataAccess {
 		
 		
 	}
+
+
+	public void eliminarSport(String elDeporte) {
+		System.out.println(">> DataAccess: eliminarSport");
+		boolean b = false;
+		Sport deporte = new Sport(elDeporte);
+		db.getTransaction().begin();
+		Sport spo = db.find(Sport.class, elDeporte);
+		if (spo!=null) {
+			db.remove(deporte);
+			b = true;
+		}
+		db.getTransaction().commit();
+		
+		
+	}
 }
 

@@ -35,6 +35,7 @@ public class CreateQuestionInt {
 		sut=new BLFacadeImplementation(da);
 		
 		testBL= new TestFacadeImplementation();
+		
 	}
 	
 	@Test

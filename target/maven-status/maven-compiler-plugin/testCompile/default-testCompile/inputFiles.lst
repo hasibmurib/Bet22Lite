@@ -1,7 +1,14 @@
-/home/hasib/git/Bet22Lite/src/test/java/test/dataAccess/TestDataAccess.java
 /home/hasib/git/Bet22Lite/src/test/java/createEventTest/CreateEventDAB.java
+/home/hasib/git/Bet22Lite/src/test/java/rankingLortuTest/RankingLortuDAW.java
+/home/hasib/git/Bet22Lite/src/test/java/createEventTest/CreateEventDAW.java
+/home/hasib/git/Bet22Lite/src/test/java/createQuestionTest/CreateQuestionMockInt.java
+/home/hasib/git/Bet22Lite/src/test/java/createEventTest/CreateEventInt.java
+/home/hasib/git/Bet22Lite/src/test/java/test/dataAccess/TestDataAccess.java
+/home/hasib/git/Bet22Lite/src/test/java/rankingLortuTest/RankingLortuMockInt.java
+/home/hasib/git/Bet22Lite/src/test/java/createEventTest/CreateEventMockInt.java
+/home/hasib/git/Bet22Lite/src/test/java/rankingLortuTest/RankingLortuDAB.java
 /home/hasib/git/Bet22Lite/src/test/java/createQuestionTest/CreateQuestionInt.java
+/home/hasib/git/Bet22Lite/src/test/java/rankingLortuTest/RankingLortuInt.java
 /home/hasib/git/Bet22Lite/src/test/java/test/businessLogic/TestFacadeImplementation.java
 /home/hasib/git/Bet22Lite/src/test/java/createQuestionTest/CreateQuestionDAB.java
 /home/hasib/git/Bet22Lite/src/test/java/createQuestionTest/CreateQuestionDAW.java
-/home/hasib/git/Bet22Lite/src/test/java/createQuestionTest/CreateQuestionMockInt.java

@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: createQuestionTest.CreateQuestionMockInt
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 0.979 sec <<< FAILURE! - in createQuestionTest.CreateQuestionMockInt
-test1(createQuestionTest.CreateQuestionMockInt)  Time elapsed: 0.923 sec  <<< FAILURE!
-java.lang.AssertionError: 
-	at createQuestionTest.CreateQuestionMockInt.test1(CreateQuestionMockInt.java:80)
-
-test3(createQuestionTest.CreateQuestionMockInt)  Time elapsed: 0.006 sec  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "domain.Event.getEventDate()" because "event" is null
+Tests run: 3, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 1.374 sec <<< FAILURE! - in createQuestionTest.CreateQuestionMockInt
+test3(createQuestionTest.CreateQuestionMockInt)  Time elapsed: 1.217 sec  <<< ERROR!
+java.lang.NullPointerException
 	at createQuestionTest.CreateQuestionMockInt.test3(CreateQuestionMockInt.java:108)
 
-test7(createQuestionTest.CreateQuestionMockInt)  Time elapsed: 0.009 sec  <<< FAILURE!
+test7(createQuestionTest.CreateQuestionMockInt)  Time elapsed: 0.056 sec  <<< FAILURE!
 java.lang.AssertionError: 
 	at createQuestionTest.CreateQuestionMockInt.test7(CreateQuestionMockInt.java:159)
+
+test1(createQuestionTest.CreateQuestionMockInt)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: 
+	at createQuestionTest.CreateQuestionMockInt.test1(CreateQuestionMockInt.java:80)
 

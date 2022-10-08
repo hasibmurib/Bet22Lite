@@ -17,6 +17,10 @@ import javax.xml.bind.annotation.XmlIDREF;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Registered  implements Serializable{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	@Id
 	@XmlID
 	private String usrname;
@@ -42,169 +46,169 @@ public class Registered  implements Serializable{
 	@XmlIDREF
 	private Team taldea;
 
-<span class="fc" id="L45">	public Registered(String username, String password, Integer bankAccount) {</span>
-<span class="fc" id="L46">		this.isAdmin=false;</span>
+<span class="fc" id="L49">	public Registered(String username, String password, Integer bankAccount) {</span>
+<span class="fc" id="L50">		this.isAdmin=false;</span>
 
-<span class="fc" id="L48">		this.usrname=username;</span>
-<span class="fc" id="L49">		this.password=password;</span>
-<span class="fc" id="L50">		this.bankAccount=bankAccount;</span>
-<span class="fc" id="L51">		this.dirukop = 0.0; </span>
-<span class="fc" id="L52">		this.transakzioak = new Vector&lt;Transaction&gt;();</span>
-<span class="fc" id="L53">		this.apustuAnitzak = new Vector&lt;ApustuAnitza&gt;();</span>
-<span class="fc" id="L54">		this.irabazitakoa=0.0;</span>
-<span class="fc" id="L55">		this.zenbat=0;</span>
-<span class="fc" id="L56">		this.mode=null;</span>
-<span class="fc" id="L57">		this.diruLimitea=0.0;</span>
-<span class="fc" id="L58">		this.nikLista= new Vector&lt;Jarraitzailea&gt;();</span>
-<span class="fc" id="L59">		this.niriLista= new Vector&lt;Jarraitzailea&gt;();</span>
-<span class="fc" id="L60">		this.taldea=null;</span>
-<span class="fc" id="L61">	}</span>
+<span class="fc" id="L52">		this.usrname=username;</span>
+<span class="fc" id="L53">		this.password=password;</span>
+<span class="fc" id="L54">		this.bankAccount=bankAccount;</span>
+<span class="fc" id="L55">		this.dirukop = 0.0; </span>
+<span class="fc" id="L56">		this.transakzioak = new Vector&lt;Transaction&gt;();</span>
+<span class="fc" id="L57">		this.apustuAnitzak = new Vector&lt;ApustuAnitza&gt;();</span>
+<span class="fc" id="L58">		this.irabazitakoa=0.0;</span>
+<span class="fc" id="L59">		this.zenbat=0;</span>
+<span class="fc" id="L60">		this.mode=null;</span>
+<span class="fc" id="L61">		this.diruLimitea=0.0;</span>
+<span class="fc" id="L62">		this.nikLista= new Vector&lt;Jarraitzailea&gt;();</span>
+<span class="fc" id="L63">		this.niriLista= new Vector&lt;Jarraitzailea&gt;();</span>
+<span class="fc" id="L64">		this.taldea=null;</span>
+<span class="fc" id="L65">	}</span>
 	
 	public Registered(String username, String password, Integer bankAccount, boolean isAdmin) {
-<span class="fc" id="L64">		this(username,password,bankAccount);</span>
+<span class="fc" id="L68">		this(username,password,bankAccount);</span>
 
-<span class="fc" id="L66">		this.isAdmin=isAdmin;</span>
-<span class="fc" id="L67">	}</span>
+<span class="fc" id="L70">		this.isAdmin=isAdmin;</span>
+<span class="fc" id="L71">	}</span>
 	public Registered() {
-<span class="nc" id="L69">		super();</span>
-<span class="nc" id="L70">	}</span>
+<span class="fc" id="L73">		super();</span>
+<span class="fc" id="L74">	}</span>
 	
 	public Vector&lt;Transaction&gt; getTransakzioak() {
-<span class="nc" id="L73">		return transakzioak;</span>
+<span class="nc" id="L77">		return transakzioak;</span>
 	}
 
 	public void setTransakzioak(Vector&lt;Transaction&gt; transakzioak) {
-<span class="nc" id="L77">		this.transakzioak = transakzioak;</span>
-<span class="nc" id="L78">	}</span>
+<span class="nc" id="L81">		this.transakzioak = transakzioak;</span>
+<span class="nc" id="L82">	}</span>
 	
 	public Double getDirukop() {
-<span class="nc" id="L81">		return dirukop;</span>
+<span class="nc" id="L85">		return dirukop;</span>
 	}
 
 	public void setDirukop(Double dirukop) {
-<span class="nc" id="L85">		this.dirukop = dirukop;</span>
-<span class="nc" id="L86">	}</span>
+<span class="nc" id="L89">		this.dirukop = dirukop;</span>
+<span class="nc" id="L90">	}</span>
 
 	public Vector&lt;ApustuAnitza&gt; getApustuAnitzak() {
-<span class="nc" id="L89">		return apustuAnitzak;</span>
+<span class="nc" id="L93">		return apustuAnitzak;</span>
 	}
 
 	public void setApustuAnitzak(Vector&lt;ApustuAnitza&gt; apustuak) {
-<span class="nc" id="L93">		this.apustuAnitzak = apustuak;</span>
-<span class="nc" id="L94">	}</span>
+<span class="nc" id="L97">		this.apustuAnitzak = apustuak;</span>
+<span class="nc" id="L98">	}</span>
 	
 	public Double getIrabazitakoa() {
-<span class="nc" id="L97">		return irabazitakoa;</span>
+<span class="fc" id="L101">		return irabazitakoa;</span>
 	}
 	
 	public void setIrabazitakoa(Double irabazitakoa) {
-<span class="nc" id="L101">		this.irabazitakoa = irabazitakoa;</span>
-<span class="nc" id="L102">	}</span>
+<span class="fc" id="L105">		this.irabazitakoa = irabazitakoa;</span>
+<span class="fc" id="L106">	}</span>
 	
 	public int getZenbat() {
-<span class="nc" id="L105">		return zenbat;</span>
+<span class="nc" id="L109">		return zenbat;</span>
 	}
 	
 	public void setZenbat(int zenbat) {
-<span class="nc" id="L109">		this.zenbat = zenbat;</span>
-<span class="nc" id="L110">	}</span>
+<span class="nc" id="L113">		this.zenbat = zenbat;</span>
+<span class="nc" id="L114">	}</span>
 	
 	public String getMode() {
-<span class="nc" id="L113">		return mode;</span>
+<span class="nc" id="L117">		return mode;</span>
 	}
 	
 	public void setMode(String mode) {
-<span class="nc" id="L117">		this.mode = mode;</span>
-<span class="nc" id="L118">	}</span>
+<span class="nc" id="L121">		this.mode = mode;</span>
+<span class="nc" id="L122">	}</span>
 	
 	public Double getDiruLimitea() {
-<span class="nc" id="L121">		return diruLimitea;</span>
+<span class="nc" id="L125">		return diruLimitea;</span>
 	}
 	
 	public void setDiruLimitea(Double diruLimitea) {
-<span class="nc" id="L125">		this.diruLimitea = diruLimitea;</span>
-<span class="nc" id="L126">	}</span>
+<span class="nc" id="L129">		this.diruLimitea = diruLimitea;</span>
+<span class="nc" id="L130">	}</span>
 	
 	public Vector&lt;Jarraitzailea&gt; getJarraitzaileLista() {
-<span class="nc" id="L129">		return niriLista;</span>
+<span class="nc" id="L133">		return niriLista;</span>
 	}
 	
 	public void setJarraitzaileLista(Vector&lt;Jarraitzailea&gt; jarraitzaileLista) {
-<span class="nc" id="L133">		this.niriLista = jarraitzaileLista;</span>
-<span class="nc" id="L134">	}</span>
+<span class="nc" id="L137">		this.niriLista = jarraitzaileLista;</span>
+<span class="nc" id="L138">	}</span>
 	
 	public Vector&lt;Jarraitzailea&gt; getJarraitutakoLista() {
-<span class="nc" id="L137">		return nikLista;</span>
+<span class="nc" id="L141">		return nikLista;</span>
 	}
 	public void setJarraitutakoLista(Vector&lt;Jarraitzailea&gt; jarraitutakoLista) {
-<span class="nc" id="L140">		this.nikLista = jarraitutakoLista;</span>
-<span class="nc" id="L141">	}</span>
+<span class="nc" id="L144">		this.nikLista = jarraitutakoLista;</span>
+<span class="nc" id="L145">	}</span>
 	public void addTransaction(Transaction t) {
-<span class="fc" id="L143">		this.transakzioak.add(t); </span>
-<span class="fc" id="L144">	}</span>
+<span class="fc" id="L147">		this.transakzioak.add(t); </span>
+<span class="fc" id="L148">	}</span>
 	
 	public void updateDiruKontua(Double z) {
-<span class="nc" id="L147">		this.dirukop = this.dirukop + z; </span>
-<span class="nc" id="L148">	}</span>
+<span class="nc" id="L151">		this.dirukop = this.dirukop + z; </span>
+<span class="nc" id="L152">	}</span>
 	
 	public void addApustuAnitza(ApustuAnitza a) {
-<span class="fc" id="L151">		this.apustuAnitzak.add(a); </span>
-<span class="fc" id="L152">	}</span>
+<span class="fc" id="L155">		this.apustuAnitzak.add(a); </span>
+<span class="fc" id="L156">	}</span>
 	
 	public void removeApustua(ApustuAnitza a) {
-<span class="nc" id="L155">		this.apustuAnitzak.remove(a);</span>
-<span class="nc" id="L156">	}</span>
-	
-	public void addJarraitzailea(Jarraitzailea reg) {
-<span class="nc" id="L159">		this.niriLista.add(reg);</span>
+<span class="nc" id="L159">		this.apustuAnitzak.remove(a);</span>
 <span class="nc" id="L160">	}</span>
 	
-	public void addJarraitutako(Jarraitzailea reg) {
-<span class="nc" id="L163">		this.nikLista.add(reg);</span>
+	public void addJarraitzailea(Jarraitzailea reg) {
+<span class="nc" id="L163">		this.niriLista.add(reg);</span>
 <span class="nc" id="L164">	}</span>
+	
+	public void addJarraitutako(Jarraitzailea reg) {
+<span class="nc" id="L167">		this.nikLista.add(reg);</span>
+<span class="nc" id="L168">	}</span>
 	
 	
 	
 	@Override
 	public String toString() {
-<span class="nc bnc" id="L170" title="All 2 branches missed.">		if(this.mode==&quot;RankingGUI&quot;)</span>
-<span class="nc" id="L171">			return this.getUsername() + &quot; &quot; + this.zenbat +&quot;: &quot; + this.irabazitakoa + &quot;�&quot;;</span>
+<span class="pc bpc" id="L174" title="1 of 2 branches missed.">		if(this.mode==&quot;RankingGUI&quot;)</span>
+<span class="nc" id="L175">			return this.getUsername() + &quot; &quot; + this.zenbat +&quot;: &quot; + this.irabazitakoa + &quot;�&quot;;</span>
 		else
-<span class="nc" id="L173">			return this.getUsername();</span>
+<span class="fc" id="L177">			return this.getUsername();</span>
 	}
 	
 	public Team getTaldea() {
-<span class="nc" id="L177">		return taldea;</span>
+<span class="nc" id="L181">		return taldea;</span>
 	}
 	
 	public void setTaldea(Team taldea) {
-<span class="nc" id="L181">		this.taldea = taldea;</span>
-<span class="nc" id="L182">	}</span>
+<span class="nc" id="L185">		this.taldea = taldea;</span>
+<span class="nc" id="L186">	}</span>
 	public String getUsername() {
-<span class="nc" id="L184">		return usrname;</span>
+<span class="fc" id="L188">		return usrname;</span>
 	}
 
 	public void setUsername(String usrname) {
-<span class="nc" id="L188">		this.usrname = usrname;</span>
-<span class="nc" id="L189">	}</span>
+<span class="nc" id="L192">		this.usrname = usrname;</span>
+<span class="nc" id="L193">	}</span>
 
 	public String getPassword() {
-<span class="nc" id="L192">		return password;</span>
+<span class="fc" id="L196">		return password;</span>
 	}
 
 	public void setPassword(String password) {
-<span class="nc" id="L196">		this.password = password;</span>
-<span class="nc" id="L197">	}</span>
+<span class="nc" id="L200">		this.password = password;</span>
+<span class="nc" id="L201">	}</span>
 
 	public Integer getBankAccount() {
-<span class="nc" id="L200">		return bankAccount;</span>
+<span class="fc" id="L204">		return bankAccount;</span>
 	}
 
 	public void setBankAccount(Integer bankAccount) {
-<span class="nc" id="L204">		this.bankAccount = bankAccount;</span>
-<span class="nc" id="L205">	}</span>
+<span class="nc" id="L208">		this.bankAccount = bankAccount;</span>
+<span class="nc" id="L209">	}</span>
 	public boolean isAdmin() {
-<span class="nc" id="L207">		return isAdmin;</span>
+<span class="fc" id="L211">		return isAdmin;</span>
 	}
 	
 }

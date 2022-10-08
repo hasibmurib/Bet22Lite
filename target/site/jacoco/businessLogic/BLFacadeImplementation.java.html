@@ -159,13 +159,13 @@ public class BLFacadeImplementation  implements BLFacade {
 <span class="nc" id="L159">    }</span>
     @WebMethod	
     public boolean gertaerakSortu(String description,Date eventDate, String sport) throws EventFinished{
-<span class="nc bnc" id="L162" title="All 2 branches missed.">    	if(new Date().compareTo(eventDate)&gt;0)</span>
+<span class="pc bpc" id="L162" title="1 of 2 branches missed.">    	if(new Date().compareTo(eventDate)&gt;0)</span>
 <span class="nc" id="L163">			throw new EventFinished(&quot;Gertaera honen data dagoeneko pasa da&quot;);</span>
     	
-<span class="nc" id="L165">    	dbManager.open(false);</span>
-<span class="nc" id="L166">    	boolean b = dbManager.gertaerakSortu(description, eventDate, sport);</span>
-<span class="nc" id="L167">    	dbManager.close();</span>
-<span class="nc" id="L168">    	return b;</span>
+<span class="fc" id="L165">    	dbManager.open(false);</span>
+<span class="fc" id="L166">    	boolean b = dbManager.gertaerakSortu(description, eventDate, sport);</span>
+<span class="fc" id="L167">    	dbManager.close();</span>
+<span class="fc" id="L168">    	return b;</span>
     }
     @WebMethod	
     public void storeQuote(String forecast, Double Quote, Question question) throws QuoteAlreadyExist {
@@ -262,10 +262,10 @@ public class BLFacadeImplementation  implements BLFacade {
 	
 	@WebMethod
 	public List&lt;Registered&gt; rankingLortu(){
-<span class="nc" id="L265">		dbManager.open(false);</span>
-<span class="nc" id="L266">		List&lt;Registered&gt; rank = dbManager.rankingLortu();</span>
-<span class="nc" id="L267">		dbManager.close();</span>
-<span class="nc" id="L268">		return rank;</span>
+<span class="fc" id="L265">		dbManager.open(false);</span>
+<span class="fc" id="L266">		List&lt;Registered&gt; rank = dbManager.rankingLortu();</span>
+<span class="fc" id="L267">		dbManager.close();</span>
+<span class="fc" id="L268">		return rank;</span>
 	}
 	
 	@WebMethod

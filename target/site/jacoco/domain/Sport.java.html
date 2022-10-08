@@ -19,13 +19,13 @@ public class Sport implements Serializable{
 	@Id 
 	private String izena;
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
-<span class="pc" id="L22">	private Vector&lt;Event&gt; events=new Vector&lt;Event&gt;();</span>
+<span class="fc" id="L22">	private Vector&lt;Event&gt; events=new Vector&lt;Event&gt;();</span>
 	
 	private Integer apustuKantitatea;
 	
 	public Sport() {
-<span class="nc" id="L27">		super();</span>
-<span class="nc" id="L28">	}</span>
+<span class="fc" id="L27">		super();</span>
+<span class="fc" id="L28">	}</span>
 	
 <span class="fc" id="L30">	public Sport(String izena) {</span>
 <span class="fc" id="L31">		this.izena=izena;</span>
@@ -67,7 +67,7 @@ public class Sport implements Serializable{
 
 	@Override
 	public String toString() {
-<span class="nc" id="L70">		return this.izena;</span>
+<span class="fc" id="L70">		return this.izena;</span>
 	}
 	
 	@Override

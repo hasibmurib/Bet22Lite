@@ -1,154 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="createQuestionTest.CreateQuestionMockInt" time="0.979" tests="3" errors="1" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="createQuestionTest.CreateQuestionMockInt" time="1.374" tests="3" errors="1" skipped="0" failures="2">
   <properties>
-    <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="17.0.4.1+1"/>
-    <property name="sun.boot.library.path" value="/home/hasib/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.4.v20220903-1038/jre/lib"/>
+    <property name="java.vm.version" value="11.0.16+8-post-Ubuntu-0ubuntu122.04"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
     <property name="maven.multiModuleProjectDirectory" value="/home/hasib/git/Bet22Lite"/>
-    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
-    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="path.separator" value=":"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/home/hasib/git/Bet22Lite"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="java.runtime.version" value="17.0.4.1+1"/>
+    <property name="java.runtime.version" value="11.0.16+8-post-Ubuntu-0ubuntu122.04"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/home/hasib/Desktop/IS2 /.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf2333657632791823533.tmp"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
     <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="61.0"/>
+    <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="5.15.0-48-generic"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
     <property name="user.home" value="/home/hasib"/>
     <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.specification.version" value="17"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sonar.projectKey" value="Bets2023"/>
     <property name="user.name" value="hasib"/>
-    <property name="java.class.path" value="/home/hasib/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.8.601.20220820-1147/jars/plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="17"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always install"/>
-    <property name="java.home" value="/home/hasib/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.4.v20220903-1038/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=Bets2023"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="17.0.4.1"/>
-    <property name="native.encoding" value="UTF-8"/>
-    <property name="java.vendor" value="Eclipse Adoptium"/>
-    <property name="maven.home" value="/home/hasib/git/Bet22Lite/EMBEDDED"/>
-    <property name="style.color" value="always"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="maven.home" value="/usr/share/maven"/>
     <property name="file.separator" value="/"/>
-    <property name="java.version.date" value="2022-08-12"/>
-    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="java.vendor.version" value="Temurin-17.0.4.1+1"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="test1" classname="createQuestionTest.CreateQuestionMockInt" time="0.923">
-    <failure type="java.lang.AssertionError:">java.lang.AssertionError: 
-	at createQuestionTest.CreateQuestionMockInt.test1(CreateQuestionMockInt.java:80)
-</failure>
-    <system-out><![CDATA[Creating BLFacadeImplementation instance with DataAccess parameter
-Read from config.xml: 	 businessLogicLocal=true	 databaseLocal=true	 dataBaseOpenMode=initialize
-]]></system-out>
-    <system-err><![CDATA[java.lang.instrument.IllegalClassFormatException: Error while instrumenting sun/util/resources/cldr/provider/CLDRLocaleDataMetaInfo.
-	at org.jacoco.agent.rt.internal_43f5073.CoverageTransformer.transform(CoverageTransformer.java:94)
-	at java.instrument/java.lang.instrument.ClassFileTransformer.transform(ClassFileTransformer.java:244)
-	at java.instrument/sun.instrument.TransformerManager.transform(TransformerManager.java:188)
-	at java.instrument/sun.instrument.InstrumentationImpl.transform(InstrumentationImpl.java:541)
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:182)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:821)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassInModuleOrNull(BuiltinClassLoader.java:741)
-	at java.base/jdk.internal.loader.BuiltinClassLoader.findClass(BuiltinClassLoader.java:621)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:632)
-	at java.base/java.lang.Class.forName(Class.java:545)
-	at java.base/java.util.ServiceLoader.loadProvider(ServiceLoader.java:859)
-	at java.base/java.util.ServiceLoader$ModuleServicesLookupIterator.hasNext(ServiceLoader.java:1084)
-	at java.base/java.util.ServiceLoader$2.hasNext(ServiceLoader.java:1309)
-	at java.base/java.util.ServiceLoader$3.hasNext(ServiceLoader.java:1393)
-	at java.base/sun.util.cldr.CLDRLocaleProviderAdapter.lambda$new$0(CLDRLocaleProviderAdapter.java:86)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
-	at java.base/sun.util.cldr.CLDRLocaleProviderAdapter.<init>(CLDRLocaleProviderAdapter.java:85)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at java.base/sun.util.locale.provider.LocaleProviderAdapter.forType(LocaleProviderAdapter.java:188)
-	at java.base/sun.util.locale.provider.LocaleProviderAdapter.findAdapter(LocaleProviderAdapter.java:287)
-	at java.base/sun.util.locale.provider.LocaleProviderAdapter.getAdapter(LocaleProviderAdapter.java:258)
-	at java.base/java.util.Calendar.createCalendar(Calendar.java:1688)
-	at java.base/java.util.Calendar.getInstance(Calendar.java:1656)
-	at java.base/java.text.SimpleDateFormat.initializeCalendar(SimpleDateFormat.java:680)
-	at java.base/java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:624)
-	at java.base/java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:603)
-	at createQuestionTest.CreateQuestionMockInt.test1(CreateQuestionMockInt.java:43)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:73)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:46)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:180)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:41)
-	at org.junit.runners.ParentRunner$1.evaluate(ParentRunner.java:173)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
-	at org.mockito.internal.runners.JUnit45AndHigherRunnerImpl.run(JUnit45AndHigherRunnerImpl.java:37)
-	at org.mockito.runners.MockitoJUnitRunner.run(MockitoJUnitRunner.java:62)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-Caused by: java.io.IOException: Error while instrumenting sun/util/resources/cldr/provider/CLDRLocaleDataMetaInfo.
-	at org.jacoco.agent.rt.internal_43f5073.core.instr.Instrumenter.instrumentError(Instrumenter.java:159)
-	at org.jacoco.agent.rt.internal_43f5073.core.instr.Instrumenter.instrument(Instrumenter.java:109)
-	at org.jacoco.agent.rt.internal_43f5073.CoverageTransformer.transform(CoverageTransformer.java:92)
-	... 60 more
-Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
-	at org.jacoco.agent.rt.internal_43f5073.asm.ClassReader.<init>(ClassReader.java:195)
-	at org.jacoco.agent.rt.internal_43f5073.asm.ClassReader.<init>(ClassReader.java:176)
-	at org.jacoco.agent.rt.internal_43f5073.asm.ClassReader.<init>(ClassReader.java:162)
-	at org.jacoco.agent.rt.internal_43f5073.core.internal.instr.InstrSupport.classReaderFor(InstrSupport.java:280)
-	at org.jacoco.agent.rt.internal_43f5073.core.instr.Instrumenter.instrument(Instrumenter.java:75)
-	at org.jacoco.agent.rt.internal_43f5073.core.instr.Instrumenter.instrument(Instrumenter.java:107)
-	... 61 more
-]]></system-err>
-  </testcase>
-  <testcase name="test3" classname="createQuestionTest.CreateQuestionMockInt" time="0.006">
-    <error message="Cannot invoke &quot;domain.Event.getEventDate()&quot; because &quot;event&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "domain.Event.getEventDate()" because "event" is null
+  <testcase name="test3" classname="createQuestionTest.CreateQuestionMockInt" time="1.217">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at createQuestionTest.CreateQuestionMockInt.test3(CreateQuestionMockInt.java:108)
 </error>
     <system-out><![CDATA[Creating BLFacadeImplementation instance with DataAccess parameter
+Read from config.xml: 	 businessLogicLocal=true	 databaseLocal=true	 dataBaseOpenMode=initialize
 ]]></system-out>
   </testcase>
-  <testcase name="test7" classname="createQuestionTest.CreateQuestionMockInt" time="0.009">
+  <testcase name="test7" classname="createQuestionTest.CreateQuestionMockInt" time="0.056">
     <failure type="java.lang.AssertionError:">java.lang.AssertionError: 
 	at createQuestionTest.CreateQuestionMockInt.test7(CreateQuestionMockInt.java:159)
+</failure>
+    <system-out><![CDATA[Creating BLFacadeImplementation instance with DataAccess parameter
+]]></system-out>
+  </testcase>
+  <testcase name="test1" classname="createQuestionTest.CreateQuestionMockInt" time="0.007">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: 
+	at createQuestionTest.CreateQuestionMockInt.test1(CreateQuestionMockInt.java:80)
 </failure>
     <system-out><![CDATA[Creating BLFacadeImplementation instance with DataAccess parameter
 ]]></system-out>

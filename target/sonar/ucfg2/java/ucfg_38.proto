@@ -1,39 +1,39 @@
 
 ndataAccess.DataAccess#ApustuaEgin(Ldomain/Registered;Ljava/util/Vector;Ljava/lang/Double;Ljava/lang/Integer;)ZN
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java½ ½("25*¹
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java¾ ¾("25*¹
 13N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaŞ Ş(İÚ
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaß ß(İÚ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaŞ Ş(4
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaß ß(4
 %53java.util.Vector":domain.Registered#getJarraitzaileLista()Ljava/util/Vector;*
 
 userdomain.Registered2getJarraitzaileLista()*
 3*©
 24N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÁ Á(£
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÂ Â(£
  
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÁ Á(%
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÂ Â(%
 %4javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 db
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÁ Á()
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÂ Â()
 %5#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*'
 %
 %4javax.persistence.EntityManager2getTransaction()ÃÀ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÁ Á(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÂ Â(
 
 %6void",javax.persistence.EntityTransaction#begin()V*+
 )
 %5#javax.persistence.EntityTransaction2begin()ƒ€
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÂ# Â(/
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÃ# Ã(/
 %7domain.ApustuAnitza"domain.ApustuAnitzaõ
 ò
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÂ Â(=
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÃ Ã(=
 %8"Bdomain.ApustuAnitza#<init>(Ldomain/Registered;Ljava/lang/Double;)V*
 
 %7domain.ApustuAnitza*
@@ -43,18 +43,18 @@ B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÂ Â(=
 balioajava.lang.Double›
 ˜
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÂ Â(>#
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÃ Ã(>#
 apustuAnitzadomain.ApustuAnitza"__id*
 
 %7domain.ApustuAnitza£
  
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÃ Ã(%
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÄ Ä(%
 %9javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 db‹ˆ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÃ Ã(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÄ Ä(
 %10void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*'
 %
 %9javax.persistence.EntityManager*%
@@ -62,9 +62,9 @@ B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÃ Ã(
 apustuAnitzadomain.ApustuAnitza2persist(Ljava/lang/Object;)*
 21*„
 14N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÛ Û(÷ô
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÜ Ü(÷ô
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÛ Û(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÜ Ü(
 %47void"7domain.Registered#addTransaction(Ldomain/Transaction;)V*
 
 userdomain.Registered*
@@ -72,12 +72,12 @@ B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÛ Û(
 tdomain.Transaction2$addTransaction(Ldomain/Transaction;)¤
 ¡
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÜ Ü(&
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaİ İ(&
 %48javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 db€ı
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÜ Ü(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaİ İ(
 %49void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*(
 &
 %48javax.persistence.EntityManager*
@@ -85,36 +85,36 @@ B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÜ Ü(
 tdomain.Transaction2persist(Ljava/lang/Object;)¤
 ¡
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaİ İ(&
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaŞ Ş(&
 %50javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 db’
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaİ İ(*
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaŞ Ş(*
 %51#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
 &
 %50javax.persistence.EntityManager2getTransaction()ÇÄ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaİ İ(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaŞ Ş(
 %52void"-javax.persistence.EntityTransaction#commit()V*,
 *
 %51#javax.persistence.EntityTransaction2commit()*
 13*æ	
 25N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java¾! ¾(#£
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java¿! ¿(#£
  
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java¾! ¾(#%
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java¿! ¿(#%
 %0javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 dbÇÄ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java¾; ¾(J
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java¿; ¿(J
 %1java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*
 
 udomain.Registered2getUsername()¿¼
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java¾! ¾(K
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java¿! ¿(K
 %2domain.Registered"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
 %
 %0javax.persistence.EntityManager*
@@ -123,32 +123,32 @@ B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java¾! ¾(K
 %1java.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)
 Œ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java¾ ¾(L
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java¿ ¿(L
 userdomain.Registered"__id*
 
 %2domain.Registeredx
 v
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java¿ ¿(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÀ À(
 bjava.lang.Boolean"__id*
 ""ÈÅ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÀ À(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÁ Á(
 %3java.lang.Double"0domain.Registered#getDirukop()Ljava/lang/Double;*
 
 userdomain.Registered2getDirukop()*
 24
 1*ï
 15N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÔ Ô(u
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÕ Õ(u
 s
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÔ Ô(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÕ Õ(
 adomain.Apustua"__id*
 ""—
 ”
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÔ Ô(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÕ Õ(
 adomain.Apustua"
 __arrayGet*
 
@@ -157,20 +157,20 @@ __arrayGet*
 14
 16*ƒ
 16N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÕ Õ(¤
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÖ Ö(¤
 ¡
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÕ Õ(&
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÖ Ö(&
 %35javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 dbÎË
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÕ) Õ(=
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÖ) Ö(=
 %36java.lang.Integer"4domain.Apustua#getApostuaNumber()Ljava/lang/Integer;*
 
 adomain.Apustua2getApostuaNumber()À½
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÕ Õ(>
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÖ Ö(>
 %37domain.Apustua"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*(
 &
 %35javax.persistence.EntityManager*
@@ -179,29 +179,29 @@ B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÕ Õ(>
 %36java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)‰
 †
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÕ Õ(?
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÖ Ö(?
 apudomain.Apustua"__id*
 
 %37domain.Apustua¤
 ¡
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÖ Ö(&
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java× ×(&
 %38javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 db¶³
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÖ# Ö(1
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java×# ×(1
 %39domain.Quote"'domain.Apustua#getKuota()Ldomain/Quote;*
 
 apudomain.Apustua2
 getKuota()ÈÅ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÖ# Ö(B
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java×# ×(B
 %40java.lang.Integer"0domain.Quote#getQuoteNumber()Ljava/lang/Integer;*
 
 %39domain.Quote2getQuoteNumber()¾»
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÖ Ö(C
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java× ×(C
 %41domain.Quote"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*(
 &
 %38javax.persistence.EntityManager*
@@ -210,83 +210,83 @@ B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÖ Ö(C
 %40java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)ƒ
 €
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÖ Ö(D
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java× ×(D
 qdomain.Quote"__id*
 
 %41domain.Quote¼¹
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java× ×(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaØ Ø(
 %42domain.Question"+domain.Quote#getQuestion()Ldomain/Question;*
 
 qdomain.Quote2getQuestion()¸µ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java× ×()
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaØ Ø()
 %43domain.Event"(domain.Question#getEvent()Ldomain/Event;*
 
 %42domain.Question2
 getEvent()²¯
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java× ×(4
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaØ Ø(4
 %44domain.Sport"%domain.Event#getSport()Ldomain/Sport;*
 
 %43domain.Event2
 getSport()…
 ‚
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java× ×(5
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaØ Ø(5
 spodomain.Sport"__id*
 
 %44domain.SportÒÏ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaØ Ø(5
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÙ Ù(5
 %45java.lang.Integer"5domain.Sport#getApustuKantitatea()Ljava/lang/Integer;*
 
 spodomain.Sport2getApustuKantitatea()áŞ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaØ Ø(8
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÙ Ù(8
 %46void"6domain.Sport#setApustuKantitatea(Ljava/lang/Integer;)V*
 
 spodomain.Sport*
 ""2(setApustuKantitatea(Ljava/lang/Integer;)*
 15*´
 17N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÔ Ô(×Ô
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÕ Õ(×Ô
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÔ Ô(,
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÕ Õ(,
 %34java.util.Vector"3domain.ApustuAnitza#getApustuak()Ljava/util/Vector;*%
 #
 apustuAnitzadomain.ApustuAnitza2getApustuak()*
 15*È
 18N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaĞ Ğ(•’
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÑ Ñ(•’
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaĞ Ğ(6
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÑ Ñ(6
 %27void"8domain.ApustuAnitza#setApustuKopia(Ljava/lang/Integer;)V*%
 #
 apustuAnitzadomain.ApustuAnitza*-
 +
 apustuBikoitzaGalarazijava.lang.Integer2#setApustuKopia(Ljava/lang/Integer;)äá
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÑ Ñ(!
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÒ Ò(!
 %28void"7domain.Registered#updateDiruKontua(Ljava/lang/Double;)V*
 
 userdomain.Registered*
 ""2$updateDiruKontua(Ljava/lang/Double;)yw
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÒ5 Ò(9
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÓ5 Ó(9
 %29java.util.Date"java.util.Date
 Š
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÒ1 Ò(;
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÓ1 Ó(;
 %30"java.util.Date#<init>()V*
 
 %29java.util.Date
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÒ Ò("
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÓ Ó("
 %31domain.Transaction"domain.TransactionÁ
 ¾
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÒ Ò(K
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÓ Ó(K
 %32"cdomain.Transaction#<init>(Ldomain/Registered;Ljava/lang/Double;Ljava/util/Date;Ljava/lang/String;)V*
 
 %31domain.Transaction*
@@ -299,12 +299,12 @@ B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÒ Ò(K
 ApustuaEgin
 Œ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÒ Ò(L
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÓ Ó(L
 tdomain.Transaction"__id*
 
 %31domain.Transaction‡„
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÓ Ó(%
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÔ Ô(%
 %33void"9domain.Registered#addApustuAnitza(Ldomain/ApustuAnitza;)V*
 
 userdomain.Registered*%
@@ -312,41 +312,41 @@ B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÓ Ó(%
 apustuAnitzadomain.ApustuAnitza2&addApustuAnitza(Ldomain/ApustuAnitza;)*
 17*ï
 19N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÎ Î('íê
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÏ Ï('íê
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÎ Î(?
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÏ Ï(?
 %26java.lang.Integer">domain.ApustuAnitza#getApustuAnitzaNumber()Ljava/lang/Integer;*%
 #
 apustuAnitzadomain.ApustuAnitza2getApustuAnitzaNumber()¢
 Ÿ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÎ Î(?+
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÏ Ï(?+
 apustuBikoitzaGalarazijava.lang.Integer"__id*
 
 %26java.lang.Integer*
 18*­
 1N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javağ
- ğ("X
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javañ
+ ñ("X
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javağ ğ(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javañ ñ(
 ""*­
 2N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaî
- î("X
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaï
+ ï("X
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaî î(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaï ï(
 ""*ı
 3N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaŞ Ş(}
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaß ß(}
 {
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaŞ Ş(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaß ß(
 regdomain.Jarraitzailea"__id*
 ""Ÿ
 œ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaŞ Ş(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaß ß(
 regdomain.Jarraitzailea"
 __arrayGet*
 
@@ -355,15 +355,15 @@ __arrayGet*
 2
 12*ö
 4N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaê ê(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaë ë(
 ËÈ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaê ê(%
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaë ë(%
 %67domain.Registered"1domain.Jarraitzailea#getNork()Ldomain/Registered;*
 
 erabdomain.Jarraitzailea2	getNork()ÍÊ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaê ê(M
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaë ë(M
 %68boolean"ndataAccess.DataAccess#ApustuaEgin(Ldomain/Registered;Ljava/util/Vector;Ljava/lang/Double;Ljava/lang/Integer;)Z*
 dataAccess.DataAccess*
 
@@ -376,25 +376,25 @@ B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaê ê(M
 apustuBikoitzaGalarazijava.lang.Integer2WApustuaEgin(Ldomain/Registered;Ljava/util/Vector;Ljava/lang/Double;Ljava/lang/Integer;)*
 3*”	
 5N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaè è(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaé é(
 ËÈ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaè è(%
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaé é(%
 %63domain.Registered"1domain.Jarraitzailea#getNork()Ldomain/Registered;*
 
 erabdomain.Jarraitzailea2	getNork()ËÈ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaè. è(<
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaé. é(<
 %64domain.Registered"1domain.Jarraitzailea#getNork()Ldomain/Registered;*
 
 erabdomain.Jarraitzailea2	getNork()ĞÍ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaè. è(M
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaé. é(M
 %65java.lang.Double"4domain.Registered#getDiruLimitea()Ljava/lang/Double;*
 
 %64domain.Registered2getDiruLimitea()ÊÇ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaè è(f
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaé é(f
 %66boolean"ndataAccess.DataAccess#ApustuaEgin(Ldomain/Registered;Ljava/util/Vector;Ljava/lang/Double;Ljava/lang/Integer;)Z*
 dataAccess.DataAccess*
 
@@ -407,29 +407,29 @@ B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaè è(f
 apustuBikoitzaGalarazijava.lang.Integer2WApustuaEgin(Ldomain/Registered;Ljava/util/Vector;Ljava/lang/Double;Ljava/lang/Integer;)*
 3*ü
 6N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaç ç(ËÈ
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaè è(ËÈ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaç ç(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaè è(
 %61domain.Registered"1domain.Jarraitzailea#getNork()Ldomain/Registered;*
 
 erabdomain.Jarraitzailea2	getNork()ĞÍ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaç ç('
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaè è('
 %62java.lang.Double"4domain.Registered#getDiruLimitea()Ljava/lang/Double;*
 
 %61domain.Registered2getDiruLimitea()*
 4
 5*ş
 8N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaá á(|
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaâ â(|
 z
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaá á(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaâ â(
 apudomain.ApustuAnitza"__id*
 ""
 ›
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaá á(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaâ â(
 apudomain.ApustuAnitza"
 __arrayGet*
 
@@ -440,59 +440,59 @@ __arrayGet*
 6
 10*Î
 9N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaã ã(t
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaä ä(t
 r
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaã ã(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaä ä(
 bjava.lang.Boolean"__id*2 *
 8*è
 
 20N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaË Ë(¤
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÌ Ì(¤
 ¡
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaË Ë(&
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÌ Ì(&
 %20javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 db’
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaË Ë(*
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÌ Ì(*
 %21#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
 &
 %20javax.persistence.EntityManager2getTransaction()ÇÄ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaË Ë(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÌ Ì(
 %22void"-javax.persistence.EntityTransaction#commit()V*,
 *
 %21#javax.persistence.EntityTransaction2commit()¤
 ¡
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÌ Ì(&
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÍ Í(&
 %23javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 db’
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÌ Ì(*
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÍ Í(*
 %24#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
 &
 %23javax.persistence.EntityManager2getTransaction()ÅÂ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÌ Ì(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÍ Í(
 %25void",javax.persistence.EntityTransaction#begin()V*,
 *
 %24#javax.persistence.EntityTransaction2begin()*
 18
 19*ñ
 21N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÄ Ä(u
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÅ Å(u
 s
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÄ Ä(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÅ Å(
 quodomain.Quote"__id*
 ""™
 –
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÄ Ä(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÅ Å(
 quodomain.Quote"
 __arrayGet*
 
@@ -501,34 +501,34 @@ __arrayGet*
 20
 22*—
 10N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaâ â(ÖÓ
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaã ã(ÖÓ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaâ â(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaã ã(
 %59java.lang.Integer"7domain.ApustuAnitza#getApustuKopia()Ljava/lang/Integer;*
 
 apudomain.ApustuAnitza2getApustuKopia()ßÜ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaâ â(;
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaã ã(;
 %60java.lang.Integer"7domain.ApustuAnitza#getApustuKopia()Ljava/lang/Integer;*%
 #
 apustuAnitzadomain.ApustuAnitza2getApustuKopia()*
 8
 9*ˆ
 22N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÅ Å(¤
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÆ Æ(¤
 ¡
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÅ Å(&
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÆ Æ(&
 %11javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 dbÈÅ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÅ' Å(;
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÆ' Æ(;
 %12java.lang.Integer"0domain.Quote#getQuoteNumber()Ljava/lang/Integer;*
 
 quodomain.Quote2getQuoteNumber()¾»
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÅ Å(<
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÆ Æ(<
 %13domain.Quote"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*(
 &
 %11javax.persistence.EntityManager*
@@ -537,16 +537,16 @@ B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÅ Å(<
 %12java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)‡
 „
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÅ Å(=
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÆ Æ(=
 kuotedomain.Quote"__id*
 
 %13domain.Quoteyw
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÆ Æ(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÇ Ç(
 %14domain.Apustua"domain.Apustuağ
 í
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÆ Æ(1
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÇ Ç(1
 %15";domain.Apustua#<init>(Ldomain/ApustuAnitza;Ldomain/Quote;)V*
 
 %14domain.Apustua*%
@@ -556,32 +556,32 @@ B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÆ Æ(1
 kuotedomain.Quoteˆ
 …
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÆ Æ(2
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÇ Ç(2
 apdomain.Apustua"__id*
 
 %14domain.Apustua¤
 ¡
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÇ Ç(&
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÈ È(&
 %16javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 dbıú
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÇ Ç(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÈ È(
 %17void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*(
 &
 %16javax.persistence.EntityManager*
 
 apdomain.Apustua2persist(Ljava/lang/Object;)ğí
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÈ È(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÉ É(
 %18void"1domain.ApustuAnitza#addApustua(Ldomain/Apustua;)V*%
 #
 apustuAnitzadomain.ApustuAnitza*
 
 apdomain.Apustua2addApustua(Ldomain/Apustua;)ÛØ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÉ É(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÊ Ê(
 %19void"*domain.Quote#addApustua(Ldomain/Apustua;)V*
 
 kuotedomain.Quote*
@@ -589,33 +589,33 @@ B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaÉ É(
 apdomain.Apustua2addApustua(Ldomain/Apustua;)*
 21*ş
 11N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaá á(ËÈ
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaâ â(ËÈ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaá á((
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaâ â((
 %57domain.Registered"1domain.Jarraitzailea#getNork()Ldomain/Registered;*
 
 erabdomain.Jarraitzailea2	getNork()ÔÑ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaá á(;
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaâ â(;
 %58java.util.Vector"6domain.Registered#getApustuAnitzak()Ljava/util/Vector;*
 
 %57domain.Registered2getApustuAnitzak()*
 8*Æ
 12N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaß ß(¤
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaà à(¤
 ¡
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaß ß(&
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaà à(&
 %54javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 dbèå
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaß4 ß(P
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaà4 à(P
 %55java.lang.Integer"@domain.Jarraitzailea#getJarraitzaileaNumber()Ljava/lang/Integer;*
 
 regdomain.Jarraitzailea2getJarraitzaileaNumber()ÆÃ
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaß ß(Q
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaà à(Q
 %56domain.Jarraitzailea"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*(
 &
 %54javax.persistence.EntityManager*
@@ -624,13 +624,13 @@ B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaß ß(Q
 %55java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)–
 “
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaß ß(R
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaà à(R
 erabdomain.Jarraitzailea"__id*
 
 %56domain.Jarraitzaileav
 t
 N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaà à(
+B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaá á(
 
 bjava.lang.Boolean"__id*2*
 11:

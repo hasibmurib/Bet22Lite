@@ -2,6 +2,7 @@ package test.dataAccess;
 
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import javax.persistence.EntityManager;
@@ -12,6 +13,7 @@ import javax.persistence.TypedQuery;
 import configuration.ConfigXML;
 import domain.Event;
 import domain.Question;
+import domain.Registered;
 import domain.Sport;
 import domain.Team;
 
@@ -20,6 +22,7 @@ public class TestDataAccess {
 	protected  EntityManagerFactory emf;
 
 	ConfigXML  c=ConfigXML.getInstance();
+	
 
 
 	public TestDataAccess()  {
@@ -139,7 +142,7 @@ public class TestDataAccess {
 		}
 		return b;
 	}
-	
+
 	public boolean removeEvent(String description, Date eventDate, String sport) {
 		boolean b = false;
 		db.getTransaction().begin();
@@ -174,12 +177,80 @@ public class TestDataAccess {
 		db.getTransaction().commit();
 		return b;
 	}
-	
+
 	public boolean addRegistered(String userName, String passwd, Integer bankAcc, boolean isAdmin) {
-		return false;
+		boolean b = false;
+		Registered usuario = new Registered(userName, passwd, bankAcc, isAdmin);
+		db.getTransaction().begin();
+		Registered usr = db.find(Registered.class, usuario);
+		if (usr==null) {
+			db.persist(usuario);
+			System.out.println("Añadiendo usuario: "+userName);
+			b=true;
+		}
+		db.getTransaction().commit();
+		return b;
+
+	}
+
+
+	public int removeRegistered() {
+		db.getTransaction().begin();
+		TypedQuery<Registered> Rquery = db.createQuery("SELECT r FROM Registered r", Registered.class);
+		List<Registered> listR = Rquery.getResultList();
+		System.out.println("Eliminando registros: "+listR.toString());
+
+		for(Registered r: listR) {
+			System.out.println(r.getIrabazitakoa());
+			db.remove(r);
+		}
+		db.getTransaction().commit();
+		return listR.size();
+
+	}
+
+
+	public Boolean ponerANullIrabazitakoa(Registered user) {
+		boolean b = false;
+		db.getTransaction().begin();
+		Registered usr = db.find(Registered.class, user);
+		if (usr!=null) {
+			usr.setIrabazitakoa(null);
+			b=true;
+		}
+		db.getTransaction().commit();
+		return b;
+	}
+
+
+	public List<Registered> getRegisters() {
+		db.getTransaction().begin();
+		TypedQuery<Registered> Rquery = db.createQuery("SELECT r FROM Registered r", Registered.class);
+		List<Registered> listR = Rquery.getResultList();
+		db.getTransaction().commit();
+		return listR;
 		
 	}
 
 
+	public double setIrabazitakoa(Registered usr, double d) {
+		db.getTransaction().begin();
+		Registered r = (Registered) db.find(Registered.class, usr.getUsername());
+		if (r!=null) {
+			r.setIrabazitakoa(d);
+			db.getTransaction().commit();
+			return d;
+		}
+		else
+		{
+			db.getTransaction().commit();
+			return -1;
+		}
+		
+		
+		
+		
+		
+	}
 }
 

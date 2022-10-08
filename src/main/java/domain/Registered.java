@@ -171,7 +171,7 @@ public class Registered  implements Serializable{
 	
 	@Override
 	public String toString() {
-		if(this.mode.equals("RankingGUI"))
+		if(this.mode=="RankingGUI")
 			return this.getUsername() + " " + this.zenbat +": " + this.irabazitakoa + "�";
 		else
 			return this.getUsername();

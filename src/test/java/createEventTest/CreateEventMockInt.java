@@ -18,6 +18,7 @@ import org.mockito.runners.MockitoJUnitRunner;
 import businessLogic.BLFacade;
 import businessLogic.BLFacadeImplementation;
 import dataAccess.DataAccess;
+import exceptions.EventFinished;
 
 @RunWith(MockitoJUnitRunner.class)
 public class CreateEventMockInt {
@@ -260,4 +261,42 @@ public class CreateEventMockInt {
 			
 		}
 	}
+	
+	@Test
+	@DisplayName("No existe evento en esa fecha")
+	public void test5() throws ParseException {
+
+		//define paramaters
+		String eventText="Real_Madrid-Barcelona";
+		//Date fecha = new Date();
+		String elDeporte = "Futbol";
+
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		Date oneDate=null;
+		try {
+			try {			
+				oneDate = sdf.parse("13/09/2022");
+			} catch (ParseException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}	
+
+			//Mockito.when(daoMock.gertaerakSortu(eventText, oneDate, elDeporte)).thenReturn(true);
+			
+			Boolean q=sut.gertaerakSortu(eventText, oneDate, elDeporte);
+			fail();
+			
+			
+			
+		}
+		catch (EventFinished e) {
+			// TODO Auto-generated catch block
+			// if the program goes to this point fail 
+			assertTrue(true);
+			//System.out.println(e.toString());
+		} finally {
+			
+		}
+	}
+	
 }

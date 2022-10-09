@@ -12,6 +12,7 @@ import org.junit.jupiter.api.DisplayName;
 
 import businessLogic.BLFacadeImplementation;
 import dataAccess.DataAccess;
+import exceptions.EventFinished;
 import test.businessLogic.TestFacadeImplementation;
 
 
@@ -215,6 +216,48 @@ public class CreateEventInt {
 			boolean a=testBL.removeEvent(eventText2, oneDate, elDeporte);
 			System.out.println("Se ha borrado el evento: "+a);
 			assertTrue(a);
+			
+		}
+	}
+	
+	@Test
+	@DisplayName("Evento con esa descripción no existe en la BD pero existe eventos en esa fecha")
+	public void test5() throws ParseException {
+		
+		//define paramaters
+		String eventText="Real_Madrid-Barcelona";
+		//Date fecha = new Date();
+		String elDeporte = "Futbol";
+
+		String eventText2="Athletic_Club-Real_Sociedad";
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		Date oneDate=null;
+		
+		try {
+
+			
+			try {
+				oneDate = sdf.parse("11/09/2022");
+			} catch (ParseException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}	
+
+			
+			
+			Boolean q=sut.gertaerakSortu(eventText, oneDate, elDeporte);
+			assertTrue(q); 
+			
+			
+			
+		} catch (EventFinished e) {
+			// TODO Auto-generated catch block
+			// if the program goes to this point fail  
+			assertTrue(true);
+			
+		} finally {
+			
 			
 		}
 	}

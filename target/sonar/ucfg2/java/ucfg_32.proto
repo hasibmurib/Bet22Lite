@@ -1,41 +1,0 @@
-
-@dataAccess.DataAccess#findTeam(Ldomain/Registered;)Ldomain/Team;N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaö ö("1*Ω	
-1N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaõ! õ(#£
-†
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaõ! õ(#%
-%0javax.persistence.EntityManager"__id*!*
-dataAccess.DataAccess"
-db«ƒ
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaõ; õ(J
-%1java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*
-
-udomain.Registered2getUsername()øº
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaõ! õ(K
-%2domain.Registered"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
-%
-%0javax.persistence.EntityManager*
-""*
-
-%1java.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)è
-å
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaõ õ(L
-userdomain.Registered"__id*
-
-%2domain.Registeredºπ
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaú	 ú(
-%3domain.Team"*domain.Registered#getTaldea()Ldomain/Team;*
-
-userdomain.Registered2getTaldea()"e
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaú ú(
-
-%3domain.Team:
-udomain.RegisteredB
-dataAccess.DataAccess

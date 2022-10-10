@@ -1,48 +1,0 @@
-
-=dataAccess.DataAccess#findEvent(Ldomain/Quote;)Ldomain/Event;N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaï ï("1*Á
-
-1N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javañ ñ(£
-†
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javañ ñ(%
-%0javax.persistence.EntityManager"__id*!*
-dataAccess.DataAccess"
-db≈¬
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javañ# ñ(5
-%1java.lang.Integer"0domain.Quote#getQuoteNumber()Ljava/lang/Integer;*
-
-qdomain.Quote2getQuoteNumber()ª∏
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javañ ñ(6
-%2domain.Quote"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
-%
-%0javax.persistence.EntityManager*
-""*
-
-%1java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)Ñ
-Å
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javañ ñ(7
-quodomain.Quote"__id*
-
-%2domain.QuoteΩ∫
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaó	 ó(
-%3domain.Question"+domain.Quote#getQuestion()Ldomain/Question;*
-
-quodomain.Quote2getQuestion()∂≥
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaó	 ó(%
-%4domain.Event"(domain.Question#getEvent()Ldomain/Event;*
-
-%3domain.Question2
-getEvent()"f
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaó ó(&
-
-%4domain.Event:
-qdomain.QuoteB
-dataAccess.DataAccess

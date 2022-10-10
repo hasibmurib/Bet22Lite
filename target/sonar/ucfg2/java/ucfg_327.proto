@@ -1,53 +1,0 @@
-
-)domain.Quote#toString()Ljava/lang/String;C
-9/home/hasib/git/Bet22Lite/src/main/java/domain/Quote.javaY Y("1*…
-1C
-9/home/hasib/git/Bet22Lite/src/main/java/domain/Quote.javaZ	 Z(Ü
-É
-C
-9/home/hasib/git/Bet22Lite/src/main/java/domain/Quote.javaZ Z(
-%0java.lang.String"__id**
-domain.Quote"
-
-forecastî
-ë
-C
-9/home/hasib/git/Bet22Lite/src/main/java/domain/Quote.javaZ	 Z(
-%1java.lang.String"__concat*
-
-Forecast: *
-
-%0java.lang.Stringì
-ê
-C
-9/home/hasib/git/Bet22Lite/src/main/java/domain/Quote.javaZ	 Z(*
-%2java.lang.String"__concat*
-
-%1java.lang.String*
-	; Quote: É
-Ä
-C
-9/home/hasib/git/Bet22Lite/src/main/java/domain/Quote.javaZ; Z(@
-%3java.lang.Double"__id**
-domain.Quote"
-balio¿
-Ω
-C
-9/home/hasib/git/Bet22Lite/src/main/java/domain/Quote.javaZ+ Z(A
-%4java.lang.String".java.lang.Double#toString(D)Ljava/lang/String;*"
-java.lang.Double*
-
-%3java.lang.Doubleû
-õ
-C
-9/home/hasib/git/Bet22Lite/src/main/java/domain/Quote.javaZ	 Z(A
-%5java.lang.String"__concat*
-
-%2java.lang.String*
-
-%4java.lang.String"_
-C
-9/home/hasib/git/Bet22Lite/src/main/java/domain/Quote.javaZ Z(B
-
-%5java.lang.StringB
-domain.Quote

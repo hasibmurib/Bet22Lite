@@ -1,87 +1,0 @@
-
-.domain.Apustua#galdutaMarkatu(Ldomain/Quote;)ZE
-;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaH H("4*ó
-2E
-;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaJ J(z
-x
-E
-;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaJ J(
-domain.Apustua"
-egoera"__id*	
-galduta"O
-E
-;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaK K(
-""*π
-3E
-;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaI_ I(bæª
-E
-;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaI_ I(s
-%6java.lang.Integer"0domain.Quote#getQuoteNumber()Ljava/lang/Integer;*
-
-quodomain.Quote2getQuoteNumber()Ñ
-Å
-F
-;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaI{ I(Ä
-%7domain.Quote"__id**
-domain.Apustua"
-kuotaæª
-F
-;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaI{ I(ë
-%8java.lang.Integer"0domain.Quote#getQuoteNumber()Ljava/lang/Integer;*
-
-%7domain.Quote2getQuoteNumber()€ÿ
-F
-;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaI_ I(í
-%9boolean"-java.lang.Integer#equals(Ljava/lang/Object;)Z*
-
-%6java.lang.Integer*
-
-%8java.lang.Integer2equals(Ljava/lang/Object;)*
-2
-1*∫	
-4E
-;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaI I(
-É
-Ä
-E
-;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaI I(
-
-%0domain.Quote"__id**
-domain.Apustua"
-kuota≥∞
-E
-;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaI I(
-%1domain.Question"+domain.Quote#getQuestion()Ldomain/Question;*
-
-%0domain.Quote2getQuestion()…∆
-E
-;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaI I(,
-%2java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
-
-%1domain.Question2getQuestionNumber()¥±
-E
-;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaI4 I(E
-%3domain.Question"+domain.Quote#getQuestion()Ldomain/Question;*
-
-quodomain.Quote2getQuestion()…∆
-E
-;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaI4 I(Y
-%4java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
-
-%3domain.Question2getQuestionNumber()⁄◊
-E
-;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaI I(Z
-%5boolean"-java.lang.Integer#equals(Ljava/lang/Object;)Z*
-
-%2java.lang.Integer*
-
-%4java.lang.Integer2equals(Ljava/lang/Object;)*
-3
-1*õ
-1E
-;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaM	 M("O
-E
-;/home/hasib/git/Bet22Lite/src/main/java/domain/Apustua.javaM M(
-"":
-quodomain.QuoteB
-domain.Apustua

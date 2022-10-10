@@ -1,53 +1,0 @@
-
-JdataAccess.DataAccess#findEventFromApustua(Ldomain/Apustua;)Ldomain/Event;N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.javaŸ Ÿ(""1*¬
-1N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java   (£
- 
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java   (%
-%0javax.persistence.EntityManager"__id*!*
-dataAccess.DataAccess"
-dbÍÊ
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java '  (;
-%1java.lang.Integer"4domain.Apustua#getApostuaNumber()Ljava/lang/Integer;*
-
-qdomain.Apustua2getApostuaNumber()½º
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java   (<
-%2domain.Apustua"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
-%
-%0javax.persistence.EntityManager*
-""*
-
-%1java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)ˆ
-…
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java   (=
-quodomain.Apustua"__id*
-
-%2domain.Apustuaµ²
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java¡	 ¡(
-%3domain.Quote"'domain.Apustua#getKuota()Ldomain/Quote;*
-
-quodomain.Apustua2
-getKuota()¼¹
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java¡	 ¡(%
-%4domain.Question"+domain.Quote#getQuestion()Ldomain/Question;*
-
-%3domain.Quote2getQuestion()¶³
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java¡	 ¡(0
-%5domain.Event"(domain.Question#getEvent()Ldomain/Event;*
-
-%4domain.Question2
-getEvent()"f
-N
-B/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccess.java¡ ¡(1
-
-%5domain.Event:
-qdomain.ApustuaB
-dataAccess.DataAccess

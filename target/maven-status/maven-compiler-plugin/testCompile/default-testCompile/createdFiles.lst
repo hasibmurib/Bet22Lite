@@ -1,0 +1,14 @@
+test/dataAccess/TestDataAccess.class
+createQuestionTest/CreateQuestionDAB.class
+rankingLortuTest/RankingLortuDAW.class
+createQuestionTest/CreateQuestionMockInt.class
+createEventTest/CreateEventInt.class
+createQuestionTest/CreateQuestionInt.class
+createEventTest/CreateEventDAB.class
+rankingLortuTest/RankingLortuMockInt.class
+createEventTest/CreateEventMockInt.class
+createQuestionTest/CreateQuestionDAW.class
+rankingLortuTest/RankingLortuDAB.class
+test/businessLogic/TestFacadeImplementation.class
+createEventTest/CreateEventDAW.class
+rankingLortuTest/RankingLortuInt.class

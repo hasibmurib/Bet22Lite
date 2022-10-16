@@ -33,21 +33,24 @@ import exceptions.QuoteAlreadyExist;
 
 public class KuotakIpiniGUI extends JFrame{
 	
+	private static final String ETIQUETAS = "Etiquetas";
+
 	private BLFacade businessLogic = MainGUI.getBusinessLogic();
 
 	private static final long serialVersionUID = 1L;
+	//private String etiquetas = "Etiquetas";
 
 	private JComboBox<Event> jComboBoxEvents = new JComboBox<Event>();
 	DefaultComboBoxModel<Event> modelEvents = new DefaultComboBoxModel<Event>();
 
-	private JLabel jLabelListOfEvents = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("ListEvents"));
-	private JLabel jLabelEventDate = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("EventDate"));
+	private JLabel jLabelListOfEvents = new JLabel(ResourceBundle.getBundle(ETIQUETAS).getString("ListEvents"));
+	private JLabel jLabelEventDate = new JLabel(ResourceBundle.getBundle(ETIQUETAS).getString("EventDate"));
 	private JCalendar jCalendar = new JCalendar();
 	private Calendar calendarAct = null;
 	private Calendar calendarAnt = null;
 
 	private JScrollPane scrollPaneEvents = new JScrollPane();
-	private JButton jButtonClose = new JButton(ResourceBundle.getBundle("Etiquetas").getString("Close"));
+	private JButton jButtonClose = new JButton(ResourceBundle.getBundle(ETIQUETAS).getString("Close"));
 	private JLabel jLabelMsg = new JLabel();
 	
 	private Vector<Date> datesWithEventsCurrentMonth = new Vector<Date>();
@@ -77,7 +80,7 @@ public class KuotakIpiniGUI extends JFrame{
 
 		this.getContentPane().setLayout(null);
 		this.setSize(new Dimension(604, 370));
-		this.setTitle(ResourceBundle.getBundle("Etiquetas").getString("KuotakIpini"));
+		this.setTitle(ResourceBundle.getBundle(ETIQUETAS).getString("KuotakIpini"));
 		
 
 		jComboBoxEvents.setModel(modelEvents);
@@ -114,7 +117,7 @@ public class KuotakIpiniGUI extends JFrame{
 		jLabelEventDate.setBounds(new Rectangle(40, 15, 140, 25));
 		jLabelEventDate.setBounds(40, 16, 140, 25);
 		getContentPane().add(jLabelEventDate);
-		jLabelQuestion.setText(ResourceBundle.getBundle("Etiquetas").getString("GalderaLista")); //$NON-NLS-1$ //$NON-NLS-2$
+		jLabelQuestion.setText(ResourceBundle.getBundle(ETIQUETAS).getString("GalderaLista")); //$NON-NLS-1$ //$NON-NLS-2$
 		jLabelQuestion.setBounds(290, 119, 103, 13);
 		
 		getContentPane().add(jLabelQuestion);
@@ -122,11 +125,11 @@ public class KuotakIpiniGUI extends JFrame{
 		jComboBoxQuestions.setBounds(275, 142, 250, 21);
 		
 		getContentPane().add(jComboBoxQuestions);
-		jLabelForecast.setText(ResourceBundle.getBundle("Etiquetas").getString("Forecast")); //$NON-NLS-1$ //$NON-NLS-2$
+		jLabelForecast.setText(ResourceBundle.getBundle(ETIQUETAS).getString("Forecast")); //$NON-NLS-1$ //$NON-NLS-2$
 		jLabelForecast.setBounds(40, 210, 58, 13);
 		
 		getContentPane().add(jLabelForecast);
-		jLabelQuote.setText(ResourceBundle.getBundle("Etiquetas").getString("Quote")); //$NON-NLS-1$ //$NON-NLS-2$
+		jLabelQuote.setText(ResourceBundle.getBundle(ETIQUETAS).getString("Quote")); //$NON-NLS-1$ //$NON-NLS-2$
 		jLabelQuote.setBounds(40, 242, 58, 13);
 		
 		getContentPane().add(jLabelQuote);
@@ -142,7 +145,7 @@ public class KuotakIpiniGUI extends JFrame{
 		
 		getContentPane().add(txtQuote);
 		
-		jButtonCreate = new JButton(ResourceBundle.getBundle("Etiquetas").getString("Create"));
+		jButtonCreate = new JButton(ResourceBundle.getBundle(ETIQUETAS).getString("Create"));
 		jButtonCreate.setBounds(89, 275, 150, 30);
 		getContentPane().add(jButtonCreate);
 		jLabelErrorForecast.setForeground(Color.RED);
@@ -183,10 +186,10 @@ public class KuotakIpiniGUI extends JFrame{
 				
 				if(txtForecast.getText().isEmpty()) {
 					jLabelErrorForecast.setVisible(true);
-					jLabelErrorForecast.setText(ResourceBundle.getBundle("Etiquetas").getString("ForecastError"));
+					jLabelErrorForecast.setText(ResourceBundle.getBundle(ETIQUETAS).getString("ForecastError"));
 				}else if(txtQuote.getText().isEmpty()) {
 					jLabelErrorQuote.setVisible(true);
-					jLabelErrorQuote.setText(ResourceBundle.getBundle("Etiquetas").getString("QuoteError"));
+					jLabelErrorQuote.setText(ResourceBundle.getBundle(ETIQUETAS).getString("QuoteError"));
 				}else {
 					String forecast = txtForecast.getText();
 					try {
@@ -195,19 +198,19 @@ public class KuotakIpiniGUI extends JFrame{
 							try {
 								businessLogic.storeQuote(forecast, quote, q);
 								jLabelErrorForecast.setVisible(true);
-								jLabelErrorForecast.setText(ResourceBundle.getBundle("Etiquetas").getString("QuoCorrect"));
+								jLabelErrorForecast.setText(ResourceBundle.getBundle(ETIQUETAS).getString("QuoCorrect"));
 							} catch (QuoteAlreadyExist e1) {
 								
 								jLabelErrorForecast.setVisible(true);
-								jLabelErrorForecast.setText(ResourceBundle.getBundle("Etiquetas").getString("QuoteExist"));
+								jLabelErrorForecast.setText(ResourceBundle.getBundle(ETIQUETAS).getString("QuoteExist"));
 							}
 						}else {
 							jLabelErrorQuote.setVisible(true);
-							jLabelErrorQuote.setText(ResourceBundle.getBundle("Etiquetas").getString("Quote") +" " + ResourceBundle.getBundle("Etiquetas").getString("ErrorNumber"));
+							jLabelErrorQuote.setText(ResourceBundle.getBundle(ETIQUETAS).getString("Quote") +" " + ResourceBundle.getBundle(ETIQUETAS).getString("ErrorNumber"));
 						}
 					} catch (NumberFormatException error){
 						jLabelErrorQuote.setVisible(true);
-						jLabelErrorQuote.setText(ResourceBundle.getBundle("Etiquetas").getString("Quote") +" " + ResourceBundle.getBundle("Etiquetas").getString("ErrorNumber"));
+						jLabelErrorQuote.setText(ResourceBundle.getBundle(ETIQUETAS).getString("Quote") +" " + ResourceBundle.getBundle(ETIQUETAS).getString("ErrorNumber"));
 					}
 					
 				}
@@ -261,12 +264,12 @@ public class KuotakIpiniGUI extends JFrame{
 						Vector<domain.Event> events = facade.getEvents(firstDay);
 						
 						if (events.isEmpty()) {
-							jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")
+							jLabelListOfEvents.setText(ResourceBundle.getBundle(ETIQUETAS).getString("NoEvents")
 									+ ": " + dateformat1.format(calendarAct.getTime()));
 							System.out.println("no events"); 
 						
 						} else {
-							jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("Events") + ": "
+							jLabelListOfEvents.setText(ResourceBundle.getBundle(ETIQUETAS).getString("Events") + ": "
 									+ dateformat1.format(calendarAct.getTime()));
 						}
 						jComboBoxEvents.removeAllItems();

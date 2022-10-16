@@ -34,6 +34,8 @@ import domain.Registered;
 import exceptions.EventNotFinished;
 
 public class EmaitzakIpiniGUI extends JFrame{
+	private static final String ETIQUETAS = "Etiquetas";
+
 	private BLFacade businessLogic = MainGUI.getBusinessLogic();
 
 	private static final long serialVersionUID = 1L;
@@ -41,14 +43,14 @@ public class EmaitzakIpiniGUI extends JFrame{
 	private JComboBox<Event> jComboBoxEvents = new JComboBox<Event>();
 	DefaultComboBoxModel<Event> modelEvents = new DefaultComboBoxModel<Event>();
 	
-	private JLabel jLabelListOfEvents = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("ListEvents"));
-	private JLabel jLabelEventDate = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("EventDate"));
+	private JLabel jLabelListOfEvents = new JLabel(ResourceBundle.getBundle(ETIQUETAS).getString("ListEvents"));
+	private JLabel jLabelEventDate = new JLabel(ResourceBundle.getBundle(ETIQUETAS).getString("EventDate"));
 	private JCalendar jCalendar = new JCalendar();
 	private Calendar calendarAct = null;
 	private Calendar calendarAnt = null;
 
 	private JScrollPane scrollPaneEvents = new JScrollPane();
-	private JButton jButtonClose = new JButton(ResourceBundle.getBundle("Etiquetas").getString("Close"));
+	private JButton jButtonClose = new JButton(ResourceBundle.getBundle(ETIQUETAS).getString("Close"));
 	
 	private Vector<Date> datesWithEventsCurrentMonth = new Vector<Date>();
 	private final JLabel jLabelQuestion = new JLabel(); //$NON-NLS-1$ //$NON-NLS-2$
@@ -62,7 +64,7 @@ public class EmaitzakIpiniGUI extends JFrame{
 	DefaultComboBoxModel<Quote> modelQuotes = new DefaultComboBoxModel<Quote>();
 	
 	private Registered user; 
-	private final JButton jButtonEmaitzaIpini = new JButton(ResourceBundle.getBundle("Etiquetas").getString("EmaitzaIpini")); 
+	private final JButton jButtonEmaitzaIpini = new JButton(ResourceBundle.getBundle(ETIQUETAS).getString("EmaitzaIpini")); 
 	private final JLabel jLabelError = new JLabel();
 	
 	public EmaitzakIpiniGUI(Vector<domain.Event> v) {
@@ -77,7 +79,7 @@ public class EmaitzakIpiniGUI extends JFrame{
 
 		this.getContentPane().setLayout(null);
 		this.setSize(new Dimension(604, 370));
-		this.setTitle(ResourceBundle.getBundle("Etiquetas").getString("EmaitzaIpini"));
+		this.setTitle(ResourceBundle.getBundle(ETIQUETAS).getString("EmaitzaIpini"));
 		
 		jLabelError.setHorizontalAlignment(SwingConstants.CENTER);
 		jLabelError.setBounds(116, 205, 322, 13);
@@ -113,7 +115,7 @@ public class EmaitzakIpiniGUI extends JFrame{
 		jLabelEventDate.setBounds(new Rectangle(40, 15, 140, 25));
 		jLabelEventDate.setBounds(40, 16, 140, 25);
 		getContentPane().add(jLabelEventDate);
-		jLabelQuestion.setText(ResourceBundle.getBundle("Etiquetas").getString("GalderaLista")); 
+		jLabelQuestion.setText(ResourceBundle.getBundle(ETIQUETAS).getString("GalderaLista")); 
 		jLabelQuestion.setBounds(290, 77, 103, 13);
 		
 		getContentPane().add(jLabelQuestion);
@@ -141,7 +143,7 @@ public class EmaitzakIpiniGUI extends JFrame{
 				
 
 		});
-		jLabelQuotes.setText(ResourceBundle.getBundle("Etiquetas").getString("KuotaLista")); 
+		jLabelQuotes.setText(ResourceBundle.getBundle(ETIQUETAS).getString("KuotaLista")); 
 		jLabelQuotes.setBounds(290, 131, 103, 13);
 		
 		getContentPane().add(jLabelQuotes);
@@ -171,7 +173,7 @@ public class EmaitzakIpiniGUI extends JFrame{
 					
 				} catch (EventNotFinished e1) {
 					jLabelError.setVisible(true);
-					jLabelError.setText(ResourceBundle.getBundle("Etiquetas").getString("GertaeraEzAmaitu"));
+					jLabelError.setText(ResourceBundle.getBundle(ETIQUETAS).getString("GertaeraEzAmaitu"));
 					
 				}
 			}
@@ -250,12 +252,12 @@ public class EmaitzakIpiniGUI extends JFrame{
 						Vector<domain.Event> events = facade.getEvents(firstDay);
 						
 						if (events.isEmpty()) {
-							jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")
+							jLabelListOfEvents.setText(ResourceBundle.getBundle(ETIQUETAS).getString("NoEvents")
 									+ ": " + dateformat1.format(calendarAct.getTime()));
 							System.out.println("no events"); 
 						
 						} else {
-							jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("Events") + ": "
+							jLabelListOfEvents.setText(ResourceBundle.getBundle(ETIQUETAS).getString("Events") + ": "
 									+ dateformat1.format(calendarAct.getTime()));
 						}
 						jComboBoxEvents.removeAllItems();

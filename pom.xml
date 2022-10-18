@@ -36,6 +36,7 @@
                 <include>*INT.java</include>
                 <include>*DAB.java</include>
                 <include>*DAW.java</include>
+                <include>*DAB2.java</include>
                </includes>
             </configuration>
         </plugin>

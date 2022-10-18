@@ -13,11 +13,13 @@
 /home/hasib/git/Bet22Lite/src/main/java/domain/ApustuAnitza.java
 /home/hasib/git/Bet22Lite/src/main/java/gui/GertaerakSortuGUI.java
 /home/hasib/git/Bet22Lite/src/main/java/gui/DestacadosGUI.java
+/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccessRankingLortu.java
 /home/hasib/git/Bet22Lite/src/main/java/exceptions/EventNotFinished.java
 /home/hasib/git/Bet22Lite/src/main/java/gui/CreateQuestionGUI.java
 /home/hasib/git/Bet22Lite/src/main/java/gui/MainGUI.java
 /home/hasib/git/Bet22Lite/src/main/java/gui/EmaitzakIpiniGUI.java
 /home/hasib/git/Bet22Lite/src/main/java/gui/AdminGUI.java
+/home/hasib/git/Bet22Lite/src/main/java/dataAccess/DataAccessGertaerakSortu.java
 /home/hasib/git/Bet22Lite/src/main/java/gui/ApustuakEzabatuGUI.java
 /home/hasib/git/Bet22Lite/src/main/java/gui/MugimenduakBistaratuGUI.java
 /home/hasib/git/Bet22Lite/src/main/java/exceptions/EventFinished.java

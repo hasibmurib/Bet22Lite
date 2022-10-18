@@ -125,6 +125,7 @@ gui/AdminGUI$1.class
 domain/Quote.class
 gui/MainGUI$4.class
 gui/GertaeraInfo$1.class
+dataAccess/DataAccessRankingLortu.class
 domain/ApustuAnitza.class
 gui/CreateQuestionGUI$1.class
 businessLogic/BusinessLogicServer.class
@@ -148,6 +149,7 @@ gui/MainGUI$3.class
 gui/EmaitzakIpiniGUI$2.class
 gui/FindQuestionsGUI$1.class
 gui/JarraituGUI$3.class
+dataAccess/DataAccessGertaerakSortu.class
 gui/ApustuaEginGUI$3.class
 gui/GertaeraEzabatuGUI$1.class
 gui/ApustuakEzabatuGUI$1.class

@@ -11,4 +11,6 @@ createQuestionTest/CreateQuestionDAW.class
 rankingLortuTest/RankingLortuDAB.class
 test/businessLogic/TestFacadeImplementation.class
 createEventTest/CreateEventDAW.class
+pruebaIntegración/CreateEventDAB2.class
+pruebaIntegración/RankingLortuDAB2.class
 rankingLortuTest/RankingLortuInt.class

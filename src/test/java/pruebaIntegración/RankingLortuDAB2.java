@@ -3,19 +3,16 @@ package pruebaIntegración;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
-import java.text.ParseException;
-import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import dataAccess.DataAccess;
+
 import dataAccess.DataAccessRankingLortu;
 import domain.Registered;
 import test.dataAccess.TestDataAccess;
 
-class RankingLortuDAB2 {
+public class RankingLortuDAB2 {
 
 	//sut:system under test
 	static DataAccessRankingLortu sut=new DataAccessRankingLortu();
@@ -29,7 +26,7 @@ class RankingLortuDAB2 {
 
 
 	@Test
-	@DisplayName("No hay usuarios registrados")
+	//@DisplayName("No hay usuarios registrados")
 	public void test1(){
 
 	
@@ -53,7 +50,7 @@ class RankingLortuDAB2 {
 	}
 
 	@Test
-	@DisplayName("Hay usuarios registrados pero getIrabazitakoa es null")
+	//@DisplayName("Hay usuarios registrados pero getIrabazitakoa es null")
 	public void test2(){
 
 		Registered usr = new Registered("Jon_Iturrioz", "123", 1234, false); 

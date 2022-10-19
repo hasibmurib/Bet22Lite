@@ -1,18 +1,11 @@
 package rankingLortuTest;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.junit.jupiter.api.DisplayName;
-import org.mockito.Mockito;
 
 import businessLogic.BLFacadeImplementation;
 import dataAccess.DataAccess;
@@ -45,7 +38,7 @@ public class RankingLortuInt {
 	}
 
 	@Test
-	@DisplayName("Hay dos usuarios, el primer usuario tiene más dinero que el otro")
+	//@DisplayName("Hay dos usuarios, el primer usuario tiene más dinero que el otro")
 	public void test1() {
 		List<Registered> losRegistrados = testDA.getRegisters();
 		testDA.removeRegistered();
@@ -80,7 +73,7 @@ public class RankingLortuInt {
 	}
 
 	@Test
-	@DisplayName("Hay dos usuarios, el segundo usuario tiene más dinero que el primero")
+	//@DisplayName("Hay dos usuarios, el segundo usuario tiene más dinero que el primero")
 	
 	public void test2(){
 		List<Registered> losRegistrados = testDA.getRegisters();

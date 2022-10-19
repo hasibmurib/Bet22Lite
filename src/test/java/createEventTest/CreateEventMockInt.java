@@ -8,7 +8,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import org.junit.Test;
-import org.junit.jupiter.api.DisplayName;
+
 import org.junit.runner.RunWith;
 import org.mockito.ArgumentCaptor;
 import org.mockito.InjectMocks;
@@ -31,7 +31,7 @@ public class CreateEventMockInt {
 
 
 	@Test
-	@DisplayName("Sport en BD buscado null")
+	//@DisplayName("Sport en BD buscado null")
 	public void test1() {
 		try {
 			//define paramaters
@@ -75,7 +75,7 @@ public class CreateEventMockInt {
 	}
 	
 	@Test
-	@DisplayName("No existe evento en esa fecha")
+	//@DisplayName("No existe evento en esa fecha")
 	public void test2() throws ParseException {
 
 		//define paramaters
@@ -122,7 +122,7 @@ public class CreateEventMockInt {
 	}
 	
 	@Test
-	@DisplayName("Evento con esa descripción existe en la BD en esa fecha")
+	//@DisplayName("Evento con esa descripción existe en la BD en esa fecha")
 	public void test3() throws ParseException {
 		
 		//define paramaters
@@ -192,7 +192,7 @@ public class CreateEventMockInt {
 	}
 	
 	@Test
-	@DisplayName("Evento con esa descripción no existe en la BD pero existe eventos en esa fecha")
+	//@DisplayName("Evento con esa descripción no existe en la BD pero existe eventos en esa fecha")
 	public void test4() throws ParseException {
 		
 		//define paramaters
@@ -263,7 +263,7 @@ public class CreateEventMockInt {
 	}
 	
 	@Test
-	@DisplayName("No existe evento en esa fecha")
+	//@DisplayName("No existe evento en esa fecha")
 	public void test5() throws ParseException {
 
 		//define paramaters

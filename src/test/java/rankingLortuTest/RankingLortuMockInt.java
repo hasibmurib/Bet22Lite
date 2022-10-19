@@ -1,20 +1,12 @@
 package rankingLortuTest;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.verify;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import org.junit.Test;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.runner.RunWith;
-import org.mockito.ArgumentCaptor;
 import org.mockito.InjectMocks;
 import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
@@ -22,9 +14,7 @@ import org.mockito.runners.MockitoJUnitRunner;
 import businessLogic.BLFacade;
 import businessLogic.BLFacadeImplementation;
 import dataAccess.DataAccess;
-import domain.Event;
 import domain.Registered;
-import test.dataAccess.TestDataAccess;
 
 @RunWith(MockitoJUnitRunner.class)
 public class RankingLortuMockInt {
@@ -39,7 +29,7 @@ public class RankingLortuMockInt {
 	
 
 	@Test
-	@DisplayName("Hay dos usuarios, el primer usuario tiene más dinero que el otro")
+	//@DisplayName("Hay dos usuarios, el primer usuario tiene más dinero que el otro")
 	public void test1(){
 
 		//usuarios.add(ad1); 		usuarios.add(reg1); 	usuarios.add(reg2); 	usuarios.add(reg3); 	usuarios.add(reg4); 
@@ -75,7 +65,7 @@ public class RankingLortuMockInt {
 	}
 
 	@Test
-	@DisplayName("Hay dos usuarios, el segundo usuario tiene más dinero que el primero")
+	//@DisplayName("Hay dos usuarios, el segundo usuario tiene más dinero que el primero")
 	public void test2(){
 
 		//usuarios.add(ad1); 		usuarios.add(reg1); 	usuarios.add(reg2); 	usuarios.add(reg3); 	usuarios.add(reg4); 

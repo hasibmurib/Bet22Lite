@@ -7,13 +7,13 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+
 
 import dataAccess.DataAccess;
 import test.dataAccess.TestDataAccess;
 
-class CreateEventDAW {
+public class CreateEventDAW {
 
 	// sut:system under test
 	static DataAccess sut = new DataAccess();
@@ -24,7 +24,7 @@ class CreateEventDAW {
 	
 
 	@Test
-	@DisplayName("No existe evento en esa fecha")
+	//@DisplayName("No existe evento en esa fecha")
 	public void test2() throws ParseException {
 
 		//define paramaters
@@ -69,7 +69,7 @@ class CreateEventDAW {
 	}
 	
 	@Test
-	@DisplayName("Sport null buscado en base de datos")
+	//@DisplayName("Sport null buscado en base de datos")
 	public void test1() throws ParseException {
 
 		// define paramaters
@@ -118,7 +118,7 @@ class CreateEventDAW {
 
 	
 	@Test
-	@DisplayName("Evento con esa descripción existe en la BD en esa fecha")
+	//@DisplayName("Evento con esa descripción existe en la BD en esa fecha")
 	public void test3() throws ParseException {
 		
 		//define paramaters
@@ -177,7 +177,7 @@ class CreateEventDAW {
 	}
 	
 	@Test
-	@DisplayName("Evento con esa descripción no existe en la BD pero existe eventos en esa fecha")
+	//@DisplayName("Evento con esa descripción no existe en la BD pero existe eventos en esa fecha")
 	public void test4() throws ParseException {
 		
 		//define paramaters

@@ -7,14 +7,12 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import dataAccess.DataAccess;
 import dataAccess.DataAccessGertaerakSortu;
 import test.dataAccess.TestDataAccess;
 
-class CreateEventDAB2 {
+public class CreateEventDAB2 {
 
 	//sut:system under test
 	static DataAccessGertaerakSortu sut=new DataAccessGertaerakSortu();
@@ -87,7 +85,7 @@ class CreateEventDAB2 {
 //	}
 
 	@Test
-	@DisplayName("Descripción null y evento no existe en la BD")
+	//@DisplayName("Descripción null y evento no existe en la BD")
 	public void test2() throws ParseException {
 		
 		
@@ -132,7 +130,7 @@ class CreateEventDAB2 {
 
 	
 	@Test
-	@DisplayName("Fecha null y evento no existe en la BD")
+	//@DisplayName("Fecha null y evento no existe en la BD")
 	public void test3() throws ParseException {
 
 		//define paramaters
@@ -169,7 +167,7 @@ class CreateEventDAB2 {
 
 
 	@Test
-	@DisplayName("Sport null y evento no existe en la BD")
+	//@DisplayName("Sport null y evento no existe en la BD")
 	public void test4() throws ParseException {
 
 		//define paramaters
@@ -201,7 +199,7 @@ class CreateEventDAB2 {
 	}
 
 	@Test
-	@DisplayName("Evento con esa descripción existe en la BD")
+	//@DisplayName("Evento con esa descripción existe en la BD")
 	public void test5() throws ParseException {
 
 		//define paramaters
@@ -266,7 +264,7 @@ class CreateEventDAB2 {
 	}
 
 	@Test
-	@DisplayName("Añadir evento para una fecha pasada")
+	//@DisplayName("Añadir evento para una fecha pasada")
 	public void test6() throws ParseException {
 
 		//define paramaters

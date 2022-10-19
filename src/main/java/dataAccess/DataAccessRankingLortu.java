@@ -3,14 +3,11 @@ package dataAccess;
 import java.util.ArrayList;
 //hello
 import java.util.Calendar;
-import java.util.Collection;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
-import java.util.ResourceBundle;
-import java.util.Vector;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -22,16 +19,12 @@ import configuration.UtilDate;
 import domain.ApustuAnitza;
 import domain.Apustua;
 import domain.Event;
-import domain.Jarraitzailea;
 import domain.Question;
 import domain.Quote;
 import domain.Registered;
 import domain.Sport;
 import domain.Team;
 import domain.Transaction;
-import exceptions.EventNotFinished;
-import exceptions.QuestionAlreadyExist;
-import exceptions.QuoteAlreadyExist;
 
 /**
  * It implements the data access to the objectDb database

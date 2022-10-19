@@ -3,18 +3,16 @@ package rankingLortuTest;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
-import java.text.ParseException;
-import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+
 
 import dataAccess.DataAccess;
 import domain.Registered;
 import test.dataAccess.TestDataAccess;
 
-class RankingLortuDAB {
+public class RankingLortuDAB {
 
 	//sut:system under test
 	static DataAccess sut=new DataAccess();
@@ -28,7 +26,7 @@ class RankingLortuDAB {
 
 
 	@Test
-	@DisplayName("No hay usuarios registrados")
+	//@DisplayName("No hay usuarios registrados")
 	public void test1(){
 
 	
@@ -52,7 +50,7 @@ class RankingLortuDAB {
 	}
 
 	@Test
-	@DisplayName("Hay usuarios registrados pero getIrabazitakoa es null")
+	//@DisplayName("Hay usuarios registrados pero getIrabazitakoa es null")
 	public void test2(){
 
 		Registered usr = new Registered("Jon_Iturrioz", "123", 1234, false); 

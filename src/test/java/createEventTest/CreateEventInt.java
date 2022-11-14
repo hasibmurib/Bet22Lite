@@ -1,20 +1,4 @@
 package createEventTest;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
-
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
-import org.junit.BeforeClass;
-import org.junit.Test;
-
-
-import businessLogic.BLFacadeImplementation;
-import dataAccess.DataAccess;
-import exceptions.EventFinished;
-import test.businessLogic.TestFacadeImplementation;
-
 
 public class CreateEventInt {
 //	static BLFacadeImplementation sut;

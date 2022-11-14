@@ -366,7 +366,6 @@ public class BLFacadeImplementation  implements BLFacade {
 		return ev;
 	}
 
-
 	@WebMethod
 	public Team findTeam(Registered u) {
 		dbManager.open(false);
@@ -381,5 +380,15 @@ public class BLFacadeImplementation  implements BLFacade {
 		dbManager.close();
 		return team;
 	}
+
+	@Override
+	public ExtendedIterator<Event> getEventsIterator(Date date) {
+		
+		dbManager.open(false);
+		ExtendedIterator<Event>  events=dbManager.getEventsIterator(date);
+		dbManager.close();
+		return events;
+	}
+
 }
 

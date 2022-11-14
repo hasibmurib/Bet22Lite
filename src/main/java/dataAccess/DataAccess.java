@@ -17,6 +17,8 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
 
+import businessLogic.ExtendedIterator;
+import businessLogic.ExtendedIteratorEvents;
 import configuration.ConfigXML;
 import configuration.UtilDate;
 import domain.ApustuAnitza;
@@ -363,10 +365,6 @@ public class DataAccess  {
 			
 			
 			
-			
-			
-			
-			
 			Transaction t1 = new Transaction(reg1, apA1.getBalioa(), new Date(), "ApustuaEgin");
 			Transaction t3 = new Transaction(reg2, apA4.getBalioa(), new Date(), "ApustuaEgin");
 			Transaction t4 = new Transaction(reg3, apA5.getBalioa(), new Date(), "ApustuaEgin");
@@ -637,6 +635,7 @@ public class DataAccess  {
 	 * @param date in which events are retrieved
 	 * @return collection of events
 	 */
+	
 	public Vector<Event> getEvents(Date date) {
 		System.out.println(">> DataAccess: getEvents");
 		Vector<Event> res = new Vector<Event>();	
@@ -648,6 +647,12 @@ public class DataAccess  {
 		   res.add(ev);
 		  }
 	 	return res;
+	}
+	
+	public ExtendedIterator<Event> getEventsIterator(Date date) {
+		List<Event> events = this.getEvents(date);
+		ExtendedIterator eventos = new ExtendedIteratorEvents(events);
+	 	return eventos;
 	}
 	
 	/**
@@ -1196,4 +1201,6 @@ public void open(boolean initializeMode){
 		return query.getResultList();
 		
 	}
+	
+	
 }

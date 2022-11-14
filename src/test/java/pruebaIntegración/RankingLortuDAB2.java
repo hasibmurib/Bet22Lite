@@ -7,7 +7,6 @@ import java.util.List;
 
 import org.junit.Test;
 
-
 import dataAccess.DataAccessRankingLortu;
 import domain.Registered;
 import test.dataAccess.TestDataAccess;

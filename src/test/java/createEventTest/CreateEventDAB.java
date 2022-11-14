@@ -1,17 +1,5 @@
 package createEventTest;
 
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
-
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
-import org.junit.Test;
-
-import dataAccess.DataAccess;
-import test.dataAccess.TestDataAccess;
-
 public class CreateEventDAB {
 
 //	//sut:system under test

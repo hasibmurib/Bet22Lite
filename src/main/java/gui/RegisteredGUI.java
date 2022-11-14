@@ -105,6 +105,22 @@ public class RegisteredGUI extends JFrame {
 			jContentPane.add(getJButtonDesLogin());
 			jContentPane.add(getBtnRank());
 			jContentPane.add(getBtnDestacados());
+			
+			JButton btnBetsTable = new JButton(ResourceBundle.getBundle("Etiquetas").getString("RegisteredGUI.btnBetsTable.text")); //$NON-NLS-1$ //$NON-NLS-2$
+			btnBetsTable.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					Registered usr=MainGUI.getBusinessLogic().findUser(user);
+					//Registered usr = appFacadeInterface.
+					JFrame a = new WindowTable(usr);
+					a.setVisible(true);
+				}
+				
+			});
+			btnBetsTable.setForeground(Color.DARK_GRAY);
+			btnBetsTable.setFont(new Font("Dialog", Font.PLAIN, 16));
+			btnBetsTable.setBackground(Color.PINK);
+			btnBetsTable.setBounds(20, 382, 282, 68);
+			jContentPane.add(btnBetsTable);
 		}
 		return jContentPane;
 	}

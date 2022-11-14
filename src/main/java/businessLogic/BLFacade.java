@@ -42,6 +42,8 @@ public interface BLFacade  {
 	 */
 	@WebMethod Question createQuestion(Event event, String question, float betMinimum) throws EventFinished, QuestionAlreadyExist;
 	
+	@WebMethod public ExtendedIterator<Event> getEventsIterator(Date date);
+	
 	
 	/**
 	 * This method retrieves the events of a given date 
@@ -129,4 +131,6 @@ public interface BLFacade  {
 	@WebMethod public Team findTeam(Registered u);
 	
 	@WebMethod public Sport findSport(Event q);
+	
+	
 }
